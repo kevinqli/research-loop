@@ -1,0 +1,24 @@
+{
+ "seed": 2,
+ "capable_acc": 0.75,
+ "cond_correct": "6/8",
+ "errors": [
+  [
+   "t5",
+   "NULL",
+   "REAL",
+   "FALSE-POS"
+  ],
+  [
+   "t6",
+   "NULL",
+   "REAL",
+   "FALSE-POS"
+  ]
+ ],
+ "Bcollider_acc": 0.875,
+ "t8": {
+  "verdict": "NULL",
+  "cond": "group"
+ }
+}

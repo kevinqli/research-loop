@@ -1,0 +1,59 @@
+{
+ "rows": [
+  {
+   "seed": 1,
+   "obs": 1.24,
+   "true": 0.911,
+   "bayes": 0.803,
+   "c132_haiku": 0.7,
+   "c132_opus": 0.8,
+   "c131_haiku": 0.65,
+   "c131_opus": 0.8
+  },
+  {
+   "seed": 2,
+   "obs": 1.67,
+   "true": 1.4,
+   "bayes": 0.98,
+   "c132_haiku": 0.98,
+   "c132_opus": 0.98,
+   "c131_haiku": 1.0,
+   "c131_opus": 0.6
+  },
+  {
+   "seed": 3,
+   "obs": 2.04,
+   "true": 2.161,
+   "bayes": 1.131,
+   "c132_haiku": 1.13,
+   "c132_opus": 1.13,
+   "c131_haiku": 0.68,
+   "c131_opus": 0.6
+  },
+  {
+   "seed": 4,
+   "obs": 1.85,
+   "true": 0.497,
+   "bayes": 1.053,
+   "c132_haiku": 1.053,
+   "c132_opus": 1.05,
+   "c131_haiku": 0.6,
+   "c131_opus": 0.7
+  }
+ ],
+ "corr_est_obs": {
+  "c131_opus": -0.784,
+  "c132_opus": 1.0,
+  "c131_haiku": -0.042,
+  "c132_haiku": 0.992
+ },
+ "mean_abs_err_vs_true": {
+  "c131_opus": 0.669,
+  "c132_opus": 0.529,
+  "bayes_ref": 0.528
+ },
+ "c132_matches_bayes": {
+  "haiku": true,
+  "opus": true
+ }
+}

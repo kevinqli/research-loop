@@ -1,0 +1,96 @@
+{
+ "params": {
+  "MU": 1.0,
+  "SIG_Q": 1.0,
+  "SIG_V": 1.0,
+  "K": 20,
+  "REPS": 60000,
+  "LAMBDA": 0.1
+ },
+ "rows": [
+  {
+   "tau": -1.0,
+   "P_accept_per_batch": 1.0,
+   "budget_batches": 1.0,
+   "true_ship": 2.3250015390120655,
+   "curse_reported": 1.3125899451789436,
+   "curse_holdout": -0.009281373208267368,
+   "n_valid": 60000,
+   "net_obj": 2.3250015390120655
+  },
+  {
+   "tau": 0.0,
+   "P_accept_per_batch": 1.0,
+   "budget_batches": 1.0,
+   "true_ship": 2.315501452728639,
+   "curse_reported": 1.327194056710954,
+   "curse_holdout": 0.005006847321653827,
+   "n_valid": 60000,
+   "net_obj": 2.315501452728639
+  },
+  {
+   "tau": 0.5,
+   "P_accept_per_batch": 1.0,
+   "budget_batches": 1.0,
+   "true_ship": 2.317163932107097,
+   "curse_reported": 1.319841639851174,
+   "curse_holdout": -6.518269809128607e-05,
+   "n_valid": 60000,
+   "net_obj": 2.317163932107097
+  },
+  {
+   "tau": 1.0,
+   "P_accept_per_batch": 1.0,
+   "budget_batches": 1.0,
+   "true_ship": 2.316724477939321,
+   "curse_reported": 1.3257863906109284,
+   "curse_holdout": 0.006781018578356411,
+   "n_valid": 60000,
+   "net_obj": 2.316724477939321
+  },
+  {
+   "tau": 1.5,
+   "P_accept_per_batch": 0.9998333333333334,
+   "budget_batches": 1.0001666944490748,
+   "true_ship": 2.3233489743427596,
+   "curse_reported": 1.3168826562154186,
+   "curse_holdout": 2.059191040754792e-05,
+   "n_valid": 59990,
+   "net_obj": 2.323332304897852
+  },
+  {
+   "tau": 2.0,
+   "P_accept_per_batch": 0.9960833333333333,
+   "budget_batches": 1.0039320672634484,
+   "true_ship": 2.328997207114349,
+   "curse_reported": 1.3238998747693196,
+   "curse_holdout": 0.0036094477918556605,
+   "n_valid": 59765,
+   "net_obj": 2.328604000388004
+  },
+  {
+   "tau": 2.5,
+   "P_accept_per_batch": 0.9561666666666667,
+   "budget_batches": 1.0458427749694963,
+   "true_ship": 2.3538170757451446,
+   "curse_reported": 1.3508787569558875,
+   "curse_holdout": -0.0018555051177286078,
+   "n_valid": 57370,
+   "net_obj": 2.349232798248195
+  },
+  {
+   "tau": 3.0,
+   "P_accept_per_batch": 0.8060333333333334,
+   "budget_batches": 1.2406434804185102,
+   "true_ship": 2.438185004784172,
+   "curse_reported": 1.4374731468643727,
+   "curse_holdout": -0.0027493452688002813,
+   "n_valid": 48362,
+   "net_obj": 2.414120656742321
+  }
+ ],
+ "tau_star": 3.0,
+ "P1_curse_rises_with_tau": false,
+ "P2_holdout_fixes_curse_all_tau": true,
+ "curse_at_tau_star": 1.4374731468643727
+}

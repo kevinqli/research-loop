@@ -1,0 +1,74 @@
+{
+ "task1": [
+  "feat6",
+  "feat8",
+  "feat0",
+  "feat4",
+  "feat33",
+  "feat41",
+  "feat17",
+  "feat38",
+  "feat32",
+  "feat12"
+ ],
+ "task2": [
+  "feat1",
+  "feat28",
+  "feat7",
+  "feat20",
+  "feat23",
+  "feat2",
+  "feat42",
+  "feat37",
+  "feat17",
+  "feat48"
+ ],
+ "task3": [
+  "feat14",
+  "feat35",
+  "feat10",
+  "feat6",
+  "feat17",
+  "feat15",
+  "feat25",
+  "feat24",
+  "feat4",
+  "feat5"
+ ],
+ "task4": [
+  "feat32",
+  "feat33",
+  "feat16",
+  "feat39",
+  "feat43",
+  "feat27",
+  "feat49",
+  "feat24",
+  "feat38",
+  "feat14"
+ ],
+ "task5": [
+  "feat29",
+  "feat12",
+  "feat47",
+  "feat35",
+  "feat48",
+  "feat45",
+  "feat49",
+  "feat28",
+  "feat2",
+  "feat33"
+ ],
+ "task6": [
+  "feat25",
+  "feat10",
+  "feat20",
+  "feat1",
+  "feat46",
+  "feat6",
+  "feat15",
+  "feat38",
+  "feat11",
+  "feat21"
+ ]
+}

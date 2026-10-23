@@ -1,0 +1,6 @@
+{
+ "wall_after_progress_below": "borderline_KEY",
+ "ambiguous_slow_crawl": "borderline_ambig",
+ "clear_wall_below": "control_wall",
+ "fast_progress_below": "control_progress"
+}

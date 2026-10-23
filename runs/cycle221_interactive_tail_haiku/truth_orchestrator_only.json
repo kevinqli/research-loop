@@ -1,0 +1,6 @@
+{
+ "setup": "c220 truth model (improving r1-5 / plateau r6-7 / +2\u03c3 spike r8) but HAIKU; capability-generality close of #2d",
+ "prereg_meth29": "calibrated stopping is capability-GENERAL: Haiku also stops at/near plateau (maybe earlier), NOT thrash -> reinforces #168 across tiers",
+ "moat_alt": "Haiku thrashes/over-continues past plateau -> capability-dependent tail failure (weaker agents need forcing) -> sharpens the moat",
+ "compare": "c220 Opus stopped at plateau (rep0 r8, rep1 r5); c201 Haiku more cautious than Opus on handed spike"
+}

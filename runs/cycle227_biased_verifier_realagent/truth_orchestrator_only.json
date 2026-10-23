@@ -1,0 +1,4 @@
+{
+ "design": "equal-correctness pairs differ only in verbosity/confidence; counterbalanced; gap=verbose-terse (0=unbiased)",
+ "prereg": "F1 plain: positive gap (famous verbosity bias, capability-flat); F2 careful: reduced (c184 elicitation); resistant if F2>0"
+}

@@ -1,0 +1,11 @@
+{
+ "agent_reported": 0.07115221550865479,
+ "agent_true_oos": 0.05383873301457387,
+ "agent_is": 0.1186668145561578,
+ "calib_error": 0.01731348249408092,
+ "true_recovered": 4,
+ "oracle_oos": 0.06415031617127809,
+ "naive_overfit_is": 0.24423929311074644,
+ "naive_overfit_oos": -0.1911448563031548,
+ "method": "Ridge regression with top-5 correlation-ranked features; 5-fold CV R2=0.079; discounted 10% for future regime drift"
+}

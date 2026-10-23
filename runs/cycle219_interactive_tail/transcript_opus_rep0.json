@@ -1,0 +1,17 @@
+[
+ {
+  "round": 1,
+  "prompt_tail": "OUND 1. Reply in EXACTLY one of these two forms:\n  CONTINUE: <your next candidate idea, one line>\n  STOP: ship round <k>; the best score <is / is not> a real improvement because <one line>\nDecide now.",
+  "reply": "CONTINUE: greedy construction seeded by a problem-specific heuristic, then local-search (2-opt/swap) refinement to a local optimum."
+ },
+ {
+  "round": 2,
+  "prompt_tail": "OUND 2. Reply in EXACTLY one of these two forms:\n  CONTINUE: <your next candidate idea, one line>\n  STOP: ship round <k>; the best score <is / is not> a real improvement because <one line>\nDecide now.",
+  "reply": "CONTINUE: add metaheuristic restarts \u2014 wrap the local search in simulated annealing (or tabu) with multiple random restarts to escape the 2-opt local optima."
+ },
+ {
+  "round": 3,
+  "prompt_tail": "OUND 3. Reply in EXACTLY one of these two forms:\n  CONTINUE: <your next candidate idea, one line>\n  STOP: ship round <k>; the best score <is / is not> a real improvement because <one line>\nDecide now.",
+  "reply": "STOP: ship round 1; the best score is not a real improvement because rounds 2's 80.7 is within scorer noise of round 1's 80.9 \u2014 a 0.2 gap is statistically meaningless."
+ }
+]

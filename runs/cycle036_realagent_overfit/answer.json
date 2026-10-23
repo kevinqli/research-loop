@@ -1,0 +1,11 @@
+{
+  "selected_features": [
+    "feat32",
+    "feat28",
+    "feat29",
+    "feat43",
+    "feat24"
+  ],
+  "expected_oos_r2": 0.07115221550865479,
+  "method": "Ridge regression with top-5 correlation-ranked features; 5-fold CV R2=0.079; discounted 10% for future regime drift"
+}

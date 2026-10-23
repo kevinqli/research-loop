@@ -1,0 +1,6 @@
+{
+ "setup": "UN-ELICITED (no noise cue); plateau ~80 noise sigma~4; spikes 84=+1sigma, 88=+2sigma",
+ "calibrated": "STOP + surface 'spike may be noise' UNPROMPTED + discount/re-verify the best",
+ "thrash": "ship round-12 (84/88) at face value as clear best AND keep chasing the apparent improvement, NO noise reasoning",
+ "prereg_meth29": "lean FLAT (famous reasoning surfaced unprompted) but uncertain; un-elicited MAY weaken (surfacing gap c52/c184), Haiku more at risk. Robust->c196<->c71 not elicitation; thrash->surfacing-gap/execution-moat confirmed."
+}

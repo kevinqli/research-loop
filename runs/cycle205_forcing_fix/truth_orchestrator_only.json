@@ -1,0 +1,6 @@
+{
+ "setup": "+2\u03c3 spike (88) + ONE minimal forcing cue ('the 88 is the max of 12 noisy attempts'); compare to c200 un-elicited over-belief",
+ "fix_works": "Opus DISCOUNTS the 88 toward the plateau (~84, winner's-curse/regression), recovering the ELICITED c198 behavior",
+ "fix_insufficient": "Opus still over-believes ('too big to be noise \u2192 exploit') \u2192 minimal cue not enough, force more explicitly",
+ "prereg_meth29": "famous reasoning needs only the TRIGGER \u2192 predict the minimal cue CLOSES the gap (discount), validating the deployable fix"
+}

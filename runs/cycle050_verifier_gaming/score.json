@@ -1,0 +1,29 @@
+{
+ "K": 100,
+ "rows": [
+  {
+   "alpha_v": 0.0,
+   "in_sample_gap": 0.08860203378729481,
+   "gamed_verifier_gap": -0.00031314302196984163,
+   "secret_holdout_gap": 0.0008388126509390356
+  },
+  {
+   "alpha_v": 0.5,
+   "in_sample_gap": 0.08332061150429934,
+   "gamed_verifier_gap": 0.04150145115142834,
+   "secret_holdout_gap": -0.0005900497987867018
+  },
+  {
+   "alpha_v": 1.0,
+   "in_sample_gap": 0.07162566228093267,
+   "gamed_verifier_gap": 0.07272078894709161,
+   "secret_holdout_gap": 0.0014791727312572255
+  },
+  {
+   "alpha_v": 2.0,
+   "in_sample_gap": 0.05070479920094622,
+   "gamed_verifier_gap": 0.10289539820208043,
+   "secret_holdout_gap": -0.0006349102534492577
+  }
+ ]
+}

@@ -1,0 +1,1256 @@
+{
+ "t0": {
+  "question": "Does `treatment` have a real effect on `outcome`? Answer REAL or NULL.",
+  "data": [
+   {
+    "treatment": 1.0,
+    "outcome": 57.34
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 61.2
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 47.32
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 51.81
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 62.74
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 54.48
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 54.88
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 58.21
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 48.91
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 51.77
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 55.28
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 48.42
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 55.21
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 49.36
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 46.67
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 51.76
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 50.47
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 54.28
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 55.71
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.1
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 56.95
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 57.2
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.07
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.78
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 49.35
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 53.92
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 51.7
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 57.57
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 61.91
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.32
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 57.29
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 67.8
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 56.58
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 51.79
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 49.98
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 53.28
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.98
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 52.15
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 52.08
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 54.69
+   }
+  ]
+ },
+ "t1": {
+  "question": "Does `treatment` have a real effect on `outcome`? Answer REAL or NULL.",
+  "data": [
+   {
+    "treatment": 1.0,
+    "outcome": 49.15
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 58.7
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 56.64
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 53.71
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 61.6
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 53.17
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 55.26
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 53.42
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 46.91
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 59.11
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 46.69
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.68
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 65.01
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 55.94
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 48.11
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.54
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 58.15
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 57.91
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 46.23
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 63.45
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 62.87
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 47.84
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 56.25
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 60.16
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 47.07
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 48.29
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 52.51
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 54.95
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.63
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 54.37
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 46.43
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 58.11
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 51.93
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 52.09
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 49.62
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 51.01
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 51.21
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 62.1
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.22
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 55.82
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.22
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 55.38
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 49.32
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 46.15
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 50.58
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 51.29
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.85
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.78
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 51.79
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 56.61
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 60.21
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 62.01
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 38.17
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 61.14
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 57.12
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 51.86
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 56.6
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 48.21
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 54.46
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 50.98
+   }
+  ]
+ },
+ "t2": {
+  "question": "Does `treatment` have a real effect on `outcome`? Answer REAL or NULL.",
+  "data": [
+   {
+    "treatment": 0.0,
+    "outcome": 48.56
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 50.42
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 47.45
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.94
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 51.5
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.47
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 38.01
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 52.57
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 47.35
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 48.82
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.75
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 50.43
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 58.24
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 54.59
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 50.24
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 54.58
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 53.07
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.24
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 55.14
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 40.33
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 48.98
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 44.79
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 47.82
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 47.62
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 56.94
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 47.63
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 40.28
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 55.43
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.75
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 58.22
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 43.59
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 47.64
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 52.93
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 46.93
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 41.97
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 54.03
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 47.62
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 43.54
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 47.64
+   }
+  ]
+ },
+ "t3": {
+  "question": "Does `treatment` have a real effect on `outcome`? Answer REAL or NULL.",
+  "data": [
+   {
+    "treatment": 0.0,
+    "outcome": 50.68,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 46.06,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.02,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.96,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 45.66,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 49.61,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 46.76,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 47.5,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 55.01,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 47.64,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 46.5,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 56.02,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 43.72,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 41.16,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 34.47,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 56.48,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 54.27,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 58.8,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 48.09,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 48.38,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 51.01,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 55.33,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 54.02,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 46.66,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 45.85,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 46.48,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 44.67,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.97,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 46.95,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 42.92,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 63.78,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 46.09,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 45.12,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 50.17,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 43.57,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 52.26,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 48.9,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 35.32,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 44.65,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 46.8,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 44.15,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 53.2,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 45.21,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 48.54,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 43.7,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 56.02,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 52.79,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 39.9,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 51.3,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 49.26,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 50.28,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 48.68,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 56.15,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 55.15,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 45.98,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 45.4,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 51.74,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 44.49,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 54.79,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 52.09,
+    "group": 1.0
+   }
+  ]
+ },
+ "t4": {
+  "question": "Does `treatment` have a real effect on `outcome`? Answer REAL or NULL.",
+  "data": [
+   {
+    "treatment": 1.0,
+    "outcome": 54.34
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 48.54
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 42.45
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 57.22
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 51.79
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 48.3
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 48.64
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.95
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 48.8
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 51.18
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 55.39
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 52.76
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 49.04
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 53.9
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 53.11
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 46.35
+   }
+  ]
+ },
+ "t5": {
+  "question": "Does `treatment` have a real effect on `outcome`? Answer REAL or NULL.",
+  "data": [
+   {
+    "treatment": 0.0,
+    "outcome": 47.36,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 49.85,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 52.53,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 45.87,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 58.86,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 47.09,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 47.71,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 61.09,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 64.1,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 48.19,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 50.68,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 56.74,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 50.37,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 58.54,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 56.99,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 62.38,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 58.26,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 50.27,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 61.09,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 48.92,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 66.36,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 62.76,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 58.85,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 60.16,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 41.1,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 50.55,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 53.05,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 55.53,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 54.15,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.1,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 56.59,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 63.23,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 57.31,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 61.63,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 45.5,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.81,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 53.18,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 56.0,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 48.38,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 61.69,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 61.28,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.7,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 47.32,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 59.75,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 44.19,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 63.44,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 47.59,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 49.11,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 47.43,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 54.55,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 58.82,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 48.3,
+    "group": 1.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 65.29,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 50.28,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 47.86,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 64.07,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 50.43,
+    "group": 0.0
+   },
+   {
+    "treatment": 1.0,
+    "outcome": 57.97,
+    "group": 1.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 49.36,
+    "group": 0.0
+   },
+   {
+    "treatment": 0.0,
+    "outcome": 45.98,
+    "group": 0.0
+   }
+  ]
+ }
+}

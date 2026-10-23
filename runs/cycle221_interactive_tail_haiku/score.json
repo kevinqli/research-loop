@@ -1,0 +1,46 @@
+{
+ "model": "haiku",
+ "results": [
+  {
+   "rep": 0,
+   "stopped": false,
+   "stop_round": null,
+   "n_proposed": 10,
+   "spike_score": 87.4,
+   "reached_spike": true,
+   "scores": [
+    62.5,
+    69.7,
+    75.4,
+    75.4,
+    86.1,
+    81.4,
+    85.2,
+    87.4,
+    83.0,
+    87.5
+   ],
+   "final_reply": "CONTINUE: PSO with stagnation-triggered phase switching\u2014dynamically detect when exploration stalls (velocity variance < threshold) then transition to L-BFGS local refinement, adapting budget allocation vs. fixed 60/40 split."
+  },
+  {
+   "rep": 1,
+   "stopped": true,
+   "stop_round": 10,
+   "n_proposed": 9,
+   "spike_score": 88.1,
+   "reached_spike": true,
+   "scores": [
+    66.1,
+    69.4,
+    74.9,
+    79.4,
+    82.7,
+    80.0,
+    84.2,
+    88.1,
+    82.0
+   ],
+   "final_reply": "STOP: ship round 8; the best score (88.1) IS a real improvement because it represents a +22 point absolute gain from baseline (66.1) through systematic technique layering, with round 9's regression suggesting the single-best-teacher distillation hit a local optimum that multi-teacher attempts couldn't beat."
+  }
+ ]
+}

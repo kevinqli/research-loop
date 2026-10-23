@@ -1,0 +1,30 @@
+{
+ "truth": {
+  "S1_vary_good": "PARALLEL",
+  "S2_similar": "DEPTH",
+  "S3_vary_bad": "DEPTH"
+ },
+ "decisions": {
+  "haiku": {
+   "S1_vary_good": "PARALLEL",
+   "S2_similar": "DEPTH",
+   "S3_vary_bad": "PARALLEL"
+  },
+  "opus": {
+   "S1_vary_good": "PARALLEL",
+   "S2_similar": "DEPTH",
+   "S3_vary_bad": "DEPTH"
+  }
+ },
+ "scores": {
+  "haiku": {
+   "correct_vs_c149": "2/3",
+   "S3_gate": "PARALLEL"
+  },
+  "opus": {
+   "correct_vs_c149": "3/3",
+   "S3_gate": "DEPTH"
+  }
+ },
+ "headline": "Both models correct on S1(parallel)+S2(depth) - the intuitive coverage-vs-refinement cases. SPLIT on S3 (the verifier-gate, c149/c152 subtle half): OPUS->DEPTH (weights the broken-selector gate: 'breadth degenerates into pick-at-random'), HAIKU->PARALLEL (under-weights it, exploits 'barely-better-than-chance residual signal'). The gate is the subtle, capability-sensitive half. meth-5 caveat: 'barely better than chance' left a residual-signal loophole (Haiku's reading is defensible-but-less-c149-aligned); an EXACTLY-random selector would make DEPTH unambiguous."
+}

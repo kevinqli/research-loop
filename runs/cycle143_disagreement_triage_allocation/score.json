@@ -1,0 +1,43 @@
+{
+ "M": 200,
+ "N": 8,
+ "BUDGET": 40,
+ "vs_f_shared": [
+  {
+   "f_shared": 0.0,
+   "disagree": 19.23,
+   "uniform": 14.12,
+   "oracle": 33.85,
+   "disagree_over_oracle": 0.57,
+   "shared_caught_by_disagree": "n/a",
+   "n_shared": 0
+  },
+  {
+   "f_shared": 0.1,
+   "disagree": 19.1,
+   "uniform": 17.44,
+   "oracle": 46.55,
+   "disagree_over_oracle": 0.41,
+   "shared_caught_by_disagree": "0.0/20",
+   "n_shared": 20
+  },
+  {
+   "f_shared": 0.2,
+   "disagree": 18.9,
+   "uniform": 20.8,
+   "oracle": 58.2,
+   "disagree_over_oracle": 0.32,
+   "shared_caught_by_disagree": "0.0/40",
+   "n_shared": 40
+  },
+  {
+   "f_shared": 0.4,
+   "disagree": 18.39,
+   "uniform": 27.61,
+   "oracle": 77.01,
+   "disagree_over_oracle": 0.24,
+   "shared_caught_by_disagree": "0.0/80",
+   "n_shared": 80
+  }
+ ]
+}

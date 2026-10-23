@@ -1,0 +1,15 @@
+{
+ "n_passed_backtest": 202,
+ "of_which_real": 161,
+ "of_which_OVERFIT_lucky": 41,
+ "AUC_real_vs_overfit": {
+  "in_sample_leaderboard": 0.652,
+  "held_out_re_eval": 0.955,
+  "multi_regime_survival": 0.875
+ },
+ "winners_curse_top10_by_backtest": {
+  "real_fraction": 1.0,
+  "in_sample_Sharpe": 2.57,
+  "SAME_strategies_held_out_Sharpe": 1.04
+ }
+}

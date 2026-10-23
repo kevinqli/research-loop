@@ -1,0 +1,8 @@
+{
+ "truth": {
+  "S1_vary_good": "PARALLEL",
+  "S2_similar": "DEPTH",
+  "S3_vary_bad": "DEPTH"
+ },
+ "key_test": "S3_vary_bad (the verifier-gate: DEPTH because you can't SELECT the good attempt)"
+}

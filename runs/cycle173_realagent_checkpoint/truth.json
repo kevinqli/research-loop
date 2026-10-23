@@ -1,0 +1,7 @@
+{
+ "truth": {
+  "S1_heterogeneous": "checks RIGHT AFTER each hard step (~41/91/141) + spread the rest (NOT even, NOT all-end)",
+  "S2_uniform": "EVEN spacing (~every 25 steps) - no bottleneck to target"
+ },
+ "discriminating": "ADAPTATION: after-hard-steps for S1 vs even for S2; + the AFTER-not-AT position subtlety (check after the hard step executes)"
+}

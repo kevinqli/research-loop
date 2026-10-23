@@ -1,0 +1,17 @@
+{
+ "q1": {
+  "structure": "confounder",
+  "gt": "NULL",
+  "should_condition": true
+ },
+ "q2": {
+  "structure": "collider",
+  "gt": "NULL",
+  "should_condition": false
+ },
+ "q3": {
+  "structure": "mediator",
+  "gt": "REAL",
+  "should_condition": false
+ }
+}

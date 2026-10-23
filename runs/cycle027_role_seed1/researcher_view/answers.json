@@ -1,0 +1,33 @@
+{
+ "data_only": {
+   "q1": {
+     "verdict": "NULL",
+     "note": "Marginal effect is significant (1.69, p=0.0), but conditioning on Z shrinks the effect dramatically to 0.049 (p=0.3616). With n=2000, this pattern is consistent with confounding by Z. The conditioned estimate is more reliable for causal inference, showing no significant effect."
+   },
+   "q2": {
+     "verdict": "REAL",
+     "note": "Marginal effect is significant (0.174, p=0.0306). Conditioning on Z does not shrink but flips and amplifies the effect (-0.948, p=0.0), suggesting conditioning introduces bias rather than reduces it. The marginal effect of 0.174 indicates a real positive effect of T on Y."
+   },
+   "q3": {
+     "verdict": "REAL",
+     "note": "Marginal effect is large and highly significant (2.954, p=0.0). When conditioning on Z, the effect shrinks to -0.032 (p=0.6054), not significant. This shrinkage pattern is consistent with mediation. The total causal effect of T on Y is real and positive."
+   }
+ },
+ "with_role": {
+   "q1": {
+     "verdict": "NULL",
+     "condition_on_Z": true,
+     "reason": "Z is a pre-treatment confounder (causes both T and Y). Conditioning on Z blocks the confounding bias and yields the true causal effect of T on Y, which is null (0.049, not significant)."
+   },
+   "q2": {
+     "verdict": "REAL",
+     "condition_on_Z": false,
+     "reason": "Z is post-treatment and influenced by both T and an unmeasured confounder U (which also affects Y). Conditioning on Z opens a collider path, creating spurious negative association. The marginal effect (0.174) reflects the true causal effect of T on Y."
+   },
+   "q3": {
+     "verdict": "REAL",
+     "condition_on_Z": false,
+     "reason": "Z lies on the causal pathway from T to Y (mediator). The marginal effect (2.954) is the total causal effect; conditioning on Z would estimate only the direct effect (excluding the mediated effect through Z), which is nearly zero."
+   }
+ }
+}

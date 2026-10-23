@@ -1,0 +1,26 @@
+{
+ "t0": {
+  "ground_truth": "REAL",
+  "note": "clear real (large effect)"
+ },
+ "t1": {
+  "ground_truth": "REAL",
+  "note": "real, moderate effect"
+ },
+ "t2": {
+  "ground_truth": "NULL",
+  "note": "clear null"
+ },
+ "t3": {
+  "ground_truth": "NULL",
+  "note": "null with irrelevant group column (distractor)"
+ },
+ "t4": {
+  "ground_truth": "REAL",
+  "note": "real but UNDERPOWERED (small n) \u2014 genuinely ambiguous"
+ },
+ "t5": {
+  "ground_truth": "NULL",
+  "note": "CONFOUND TRAP: marginal assoc spurious; condition on group -> null"
+ }
+}

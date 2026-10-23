@@ -1,0 +1,42 @@
+{
+ "params": {
+  "REPS": 20000,
+  "L": 40,
+  "K": 5,
+  "A_TRUE": 0.85,
+  "A_DRIFT": 1.05,
+  "P_IID": 0.06,
+  "P_ONSET": 0.04,
+  "TAU": 0.35
+ },
+ "results": {
+  "iid": {
+   "none": {
+    "final_err": 0.1522,
+    "drift_catch": NaN
+   },
+   "local": {
+    "final_err": 0.1221,
+    "drift_catch": NaN
+   },
+   "grounding": {
+    "final_err": 0.038,
+    "drift_catch": NaN
+   }
+  },
+  "drift": {
+   "none": {
+    "final_err": 1.2547,
+    "drift_catch": 0.0
+   },
+   "local": {
+    "final_err": 1.2475,
+    "drift_catch": 0.0
+   },
+   "grounding": {
+    "final_err": 0.0457,
+    "drift_catch": 0.458
+   }
+  }
+ }
+}

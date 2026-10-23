@@ -1,0 +1,42 @@
+{
+  "t0": {
+    "verdict": "REAL",
+    "conditioned_on": "none",
+    "reason": "treatment increases outcome by ~11 points (60.3 vs 49.3); large, consistent effect"
+  },
+  "t1": {
+    "verdict": "NULL",
+    "conditioned_on": "none",
+    "reason": "effect size only 3.4 points, comparable to standard deviation; too small to distinguish from noise"
+  },
+  "t2": {
+    "verdict": "NULL",
+    "conditioned_on": "none",
+    "reason": "treatment decreases outcome by 1.2 points; effect is reversed and negligible"
+  },
+  "t3": {
+    "verdict": "NULL",
+    "conditioned_on": "none",
+    "reason": "treatment decreases outcome by ~3 points in both groups; no confounding distortion—effect is genuinely null/negative"
+  },
+  "t4": {
+    "verdict": "NULL",
+    "conditioned_on": "none",
+    "reason": "effect of 4.2 points in small sample (n=16) with high control variance; not statistically significant"
+  },
+  "t5": {
+    "verdict": "NULL",
+    "conditioned_on": "group",
+    "reason": "treatment concentrated in high-outcome group (83% vs 6%); adjusting for group shrinks marginal effect from 8.08 to ~0; confounding distorts apparent effect"
+  },
+  "t6": {
+    "verdict": "NULL",
+    "conditioned_on": "group",
+    "reason": "treatment concentrated in high-outcome group (87% vs 21%); adjusting for group reveals within-group effects are negligible or negative; confounding creates spurious marginal effect of 5.16"
+  },
+  "t8": {
+    "verdict": "NULL",
+    "conditioned_on": "none",
+    "reason": "marginal effect is zero (-0.13); within both groups treatment decreases outcome (-2.3, -4.3); no real effect"
+  }
+}

@@ -1,0 +1,60 @@
+{
+ "hard_steps": [
+  40,
+  90,
+  140
+ ],
+ "scores": {
+  "haiku": {
+   "S1_hard_steps_covered": "3/3",
+   "S1_positions": [
+    20,
+    40,
+    65,
+    90,
+    115,
+    140,
+    160,
+    185
+   ],
+   "S2_evenness_ratio": 1.05,
+   "S2_positions": [
+    22,
+    44,
+    67,
+    89,
+    111,
+    133,
+    156,
+    178
+   ],
+   "adapts": true
+  },
+  "opus": {
+   "S1_hard_steps_covered": "3/3",
+   "S1_positions": [
+    20,
+    41,
+    65,
+    91,
+    115,
+    141,
+    170,
+    200
+   ],
+   "S2_evenness_ratio": 1.0,
+   "S2_positions": [
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200
+   ],
+   "adapts": true
+  }
+ },
+ "headline": "BOTH models ADAPT checkpoint placement to the difficulty profile (S1 checks at/after all 3 hard steps 40/90/140; S2 even spacing) - REFUTING my pre-reg that a weaker model defaults to even. OPUS c169-PERFECT (checks RIGHT AFTER each hard step 41/91/141 + the propagation argument 'high prob x would-be-large distance' + tail-200); HAIKU adapts too (checks AT 40/90/140 + spread, 'max propagation <=30'), slightly less precise (at vs after). META: checkpoint-placement-by-difficulty is NOT capability-sensitive (both get it) - UNLIKE the abstract verifier-gate (c156) / budget-stringency (c165) where Haiku MISSED. Capability-sensitivity tracks ABSTRACTNESS: concrete spatial/resource reasoning (check the hard steps) -> both; abstract selection-bias/false-positive reasoning -> Opus-only."
+}

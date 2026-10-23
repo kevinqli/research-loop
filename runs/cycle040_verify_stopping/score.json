@@ -1,0 +1,9 @@
+{
+ "naive_rounds": 13.4625,
+ "verified_rounds": 10.9875,
+ "oracle_rounds": 13.7375,
+ "naive_true": -0.5222347068479251,
+ "verified_true": -0.5996457792085028,
+ "full_true": -0.4698674606067015,
+ "TMAX": 50
+}

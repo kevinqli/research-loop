@@ -1,0 +1,8 @@
+{
+ "truth": {
+  "S1_reliable": "BREADTH",
+  "S3_random": "DEPTH"
+ },
+ "discriminator": "does the model CONDITION breadth/depth on SELECTOR reliability? S1 reliable->BREADTH, S3 near-random->DEPTH (the verifier-gate). Opus expected to differentiate; Haiku to miss (BREADTH both).",
+ "prereg": "split holds (Opus differentiates, Haiku misses) -> composition->Opus-only criterion VALIDATED; both differentiate -> REFUTED"
+}

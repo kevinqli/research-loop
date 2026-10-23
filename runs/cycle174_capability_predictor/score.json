@@ -1,0 +1,59 @@
+{
+ "results": {
+  "c131_winners_curse_discount": {
+   "outcome": "BOTH (both discount the selected Sharpe)",
+   "abstract": "YES",
+   "famous": "YES (Deflated-Sharpe/regression-to-mean, textbook)"
+  },
+  "c137_wall_diagnosis": {
+   "outcome": "BOTH (6/6 change-approach on clear walls)",
+   "abstract": "MODERATE",
+   "famous": "YES (sunk-cost/stop-when-stuck is intuitive)"
+  },
+  "c151_2nd_draw_separation": {
+   "outcome": "BOTH (separate real-from-lucky w/ 2nd draw)",
+   "abstract": "MODERATE",
+   "famous": "YES (independent replication is basic)"
+  },
+  "c161_circularity_awareness": {
+   "outcome": "BOTH (flag selection/leakage as needing independent)",
+   "abstract": "YES",
+   "famous": "YES ('don't test on training data' is basic ML)"
+  },
+  "c173_checkpoint_placement": {
+   "outcome": "BOTH (place checks after hard steps)",
+   "abstract": "LOW (concrete spatial)",
+   "famous": "YES (checkpointing is common)"
+  },
+  "c156_verifier_gate": {
+   "outcome": "OPUS-ONLY (Haiku parallelizes w/ a broken selector)",
+   "abstract": "YES",
+   "famous": "NO (loop-derived: 'a broken selector negates breadth's coverage')"
+  },
+  "c165_budget_conditional_stringency": {
+   "outcome": "OPUS-ONLY (Haiku hedges uniformly)",
+   "abstract": "YES",
+   "famous": "NO (loop-derived: 'false alarms burn the retry budget, loosen on long tasks')"
+  }
+ },
+ "OPUS_ONLY": [
+  "c156_verifier_gate",
+  "c165_budget_conditional_stringency"
+ ],
+ "BOTH": [
+  "c131_winners_curse_discount",
+  "c137_wall_diagnosis",
+  "c151_2nd_draw_separation",
+  "c161_circularity_awareness",
+  "c173_checkpoint_placement"
+ ],
+ "abstractness_story_counterexamples": [
+  "c131_winners_curse_discount",
+  "c161_circularity_awareness"
+ ],
+ "novelty_story": {
+  "all_opus_only_are_novel": true,
+  "all_both_are_famous": true
+ },
+ "conclusion": "ABSTRACTNESS is CONFOUNDED (c131/c161 are abstract-but-BOTH -> refute 'abstract->Opus-only'). The clean predictor is NOVELTY: capability-sensitivity tracks whether the principle must be DERIVED (novel loop framing -> Opus-only) vs RECALLED (famous/textbook -> both). Aligns c98/99: the moat = the loop's NOVEL syntheses a weaker model can't derive."
+}

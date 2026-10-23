@@ -1,0 +1,92 @@
+{
+ "model": {
+  "L": 100,
+  "B": 40,
+  "R_COST": 4,
+  "P_J": 0.15,
+  "DELTA": 0.05
+ },
+ "vs_rL": [
+  {
+   "r_L": 1.0,
+   "n_G": 6,
+   "n_L": 16,
+   "cost": 85.77,
+   "pure_ground": 105.72,
+   "shape": "mix"
+  },
+  {
+   "r_L": 0.9,
+   "n_G": 6,
+   "n_L": 16,
+   "cost": 90.34,
+   "pure_ground": 105.72,
+   "shape": "mix"
+  },
+  {
+   "r_L": 0.7,
+   "n_G": 7,
+   "n_L": 12,
+   "cost": 99.91,
+   "pure_ground": 105.72,
+   "shape": "mix"
+  },
+  {
+   "r_L": 0.5,
+   "n_G": 10,
+   "n_L": 0,
+   "cost": 105.72,
+   "pure_ground": 105.72,
+   "shape": "pure-ground"
+  },
+  {
+   "r_L": 0.3,
+   "n_G": 10,
+   "n_L": 0,
+   "cost": 105.72,
+   "pure_ground": 105.72,
+   "shape": "pure-ground"
+  },
+  {
+   "r_L": 0.1,
+   "n_G": 10,
+   "n_L": 0,
+   "cost": 105.72,
+   "pure_ground": 105.72,
+   "shape": "pure-ground"
+  }
+ ],
+ "vs_rG": [
+  {
+   "r_G": 1.0,
+   "n_G": 10,
+   "n_L": 0,
+   "cost": 89.43
+  },
+  {
+   "r_G": 0.9,
+   "n_G": 7,
+   "n_L": 12,
+   "cost": 99.91
+  },
+  {
+   "r_G": 0.7,
+   "n_G": 7,
+   "n_L": 12,
+   "cost": 124.44
+  },
+  {
+   "r_G": 0.5,
+   "n_G": 6,
+   "n_L": 16,
+   "cost": 157.46
+  },
+  {
+   "r_G": 0.3,
+   "n_G": 6,
+   "n_L": 16,
+   "cost": 204.22
+  }
+ ],
+ "no_checkpoint_cost": 855.91
+}

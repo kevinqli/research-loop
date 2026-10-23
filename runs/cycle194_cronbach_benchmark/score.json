@@ -1,0 +1,103 @@
+{
+ "params": {
+  "N": 60,
+  "REPS": 4000,
+  "SIG_S": 1.0,
+  "SIG_E": 1.0
+ },
+ "rows": [
+  {
+   "T": 5,
+   "rho": 0.0,
+   "T_eff": 5.0,
+   "alpha": 0.8278225423356883,
+   "R_true_emp": 0.8321673531527891,
+   "R_true_analytic": 0.833,
+   "spearman": 0.8969644345651572,
+   "alpha_minus_Rtrue": -0.004
+  },
+  {
+   "T": 10,
+   "rho": 0.0,
+   "T_eff": 10.0,
+   "alpha": 0.905765797620534,
+   "R_true_emp": 0.9071966438024534,
+   "R_true_analytic": 0.909,
+   "spearman": 0.9418313698249516,
+   "alpha_minus_Rtrue": -0.001
+  },
+  {
+   "T": 20,
+   "rho": 0.0,
+   "T_eff": 20.0,
+   "alpha": 0.9507908133652618,
+   "R_true_emp": 0.9517035272071392,
+   "R_true_analytic": 0.952,
+   "spearman": 0.9680503889969437,
+   "alpha_minus_Rtrue": -0.001
+  },
+  {
+   "T": 5,
+   "rho": 0.3,
+   "T_eff": 2.27,
+   "alpha": 0.8995752674348226,
+   "R_true_emp": 0.6935443807703271,
+   "R_true_analytic": 0.694,
+   "spearman": 0.8125210058349543,
+   "alpha_minus_Rtrue": 0.206
+  },
+  {
+   "T": 10,
+   "rho": 0.3,
+   "T_eff": 2.7,
+   "alpha": 0.9471460243553692,
+   "R_true_emp": 0.7267636928696288,
+   "R_true_analytic": 0.73,
+   "spearman": 0.8325835370936373,
+   "alpha_minus_Rtrue": 0.22
+  },
+  {
+   "T": 20,
+   "rho": 0.3,
+   "T_eff": 2.99,
+   "alpha": 0.9729033147395246,
+   "R_true_emp": 0.7468698515568009,
+   "R_true_analytic": 0.749,
+   "spearman": 0.8455152403445403,
+   "alpha_minus_Rtrue": 0.226
+  },
+  {
+   "T": 5,
+   "rho": 0.6,
+   "T_eff": 1.47,
+   "alpha": 0.9505485003993891,
+   "R_true_emp": 0.5915468864849602,
+   "R_true_analytic": 0.595,
+   "spearman": 0.7445791469852738,
+   "alpha_minus_Rtrue": 0.359
+  },
+  {
+   "T": 10,
+   "rho": 0.6,
+   "T_eff": 1.56,
+   "alpha": 0.9745681892160402,
+   "R_true_emp": 0.608558446659048,
+   "R_true_analytic": 0.61,
+   "spearman": 0.7565886079466521,
+   "alpha_minus_Rtrue": 0.366
+  },
+  {
+   "T": 20,
+   "rho": 0.6,
+   "T_eff": 1.61,
+   "alpha": 0.9871994618086195,
+   "R_true_emp": 0.6150612484385827,
+   "R_true_analytic": 0.617,
+   "spearman": 0.7604884412336762,
+   "alpha_minus_Rtrue": 0.372
+  }
+ ],
+ "P1_alpha_eq_Rtrue_rho0": true,
+ "P2_alpha_overstates_rhopos": true,
+ "P3_gap_grows_with_rho": true
+}

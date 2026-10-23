@@ -1,0 +1,26 @@
+{
+  "s1": {
+    "verdict": "OVERFIT",
+    "expected_oos_r2": 0.020721596147406495
+  },
+  "s2": {
+    "verdict": "OVERFIT",
+    "expected_oos_r2": -0.054589801873164714
+  },
+  "s3": {
+    "verdict": "OVERFIT",
+    "expected_oos_r2": -0.04411998069523957
+  },
+  "s4": {
+    "verdict": "LOSES",
+    "expected_oos_r2": -0.06427353574426324
+  },
+  "s5": {
+    "verdict": "LOSES",
+    "expected_oos_r2": -0.07907594196484027
+  },
+  "s6": {
+    "verdict": "OVERFIT",
+    "expected_oos_r2": -0.04663188045595083
+  }
+}

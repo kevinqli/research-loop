@@ -1,0 +1,41 @@
+{
+ "n_self_edits": 27,
+ "measured_positive": 11,
+ "rolled_back_or_corrected": 3,
+ "kept_by_use_only": 14,
+ "type_counts": {
+  "RATE": 1,
+  "LADDER": 13,
+  "GUARD": 10,
+  "META-METRIC": 3
+ },
+ "rate_capability_edits": {
+  "n": 14,
+  "measured_or_rolled": 8,
+  "pct_validated_on_metric": 57
+ },
+ "guard_edits": {
+  "n": 10,
+  "measured_spotcheck": 3,
+  "kept_by_followed_by_use": 7
+ },
+ "measured_list": [
+  "v2",
+  "meth-2",
+  "meth-3",
+  "meth-4",
+  "meth-7",
+  "meth-11",
+  "meth-12",
+  "meth-18",
+  "meth-21",
+  "meth-22",
+  "meth-23"
+ ],
+ "rolled_list": [
+  "meth-4",
+  "meth-10",
+  "meth-14"
+ ],
+ "thesis": "self-edits are NOT homogeneous: RATE/CAPABILITY edits get measure-before-keep on the metric (the actual winner's-curse risk lives here); GUARD/LADDER edits are validated by FOLLOWED-BY-USE + error-prevention (a metric rise is the WRONG test; flat-rate != failure). The loop has DONE this correctly but never NAMED the two-type distinction."
+}

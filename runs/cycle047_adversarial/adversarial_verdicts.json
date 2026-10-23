@@ -1,0 +1,32 @@
+{
+  "task1": {
+    "verdict": "LOSES",
+    "expected_oos_r2": -0.0865318537023628,
+    "bear_point": "OOS R\u00b2 = -0.0865; actively destroys capital"
+  },
+  "task2": {
+    "verdict": "LOSES",
+    "expected_oos_r2": -0.049331923048502827,
+    "bear_point": "OOS R\u00b2 = -0.0493; actively destroys capital"
+  },
+  "task3": {
+    "verdict": "LOSES",
+    "expected_oos_r2": -0.0910753718645561,
+    "bear_point": "OOS R\u00b2 = -0.0911; actively destroys capital"
+  },
+  "task4": {
+    "verdict": "OVERFIT",
+    "expected_oos_r2": 0.10911150683329889,
+    "bear_point": "In-sample R\u00b2 0.1946 but OOS only 0.1091; high overfit gap"
+  },
+  "task5": {
+    "verdict": "REAL",
+    "expected_oos_r2": 0.21186805866169395,
+    "bear_point": "Modest but stable OOS signal; weight stability 0.2301"
+  },
+  "task6": {
+    "verdict": "REAL",
+    "expected_oos_r2": 0.3583122841961637,
+    "bear_point": "Modest but stable OOS signal; weight stability 0.1147"
+  }
+}

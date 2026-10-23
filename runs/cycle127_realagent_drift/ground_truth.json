@@ -1,0 +1,48 @@
+[
+ {
+  "seed": 0,
+  "correct_total": 262,
+  "drifted_total": 314,
+  "drift_steps_adding_SKIP": [
+   8,
+   10
+  ],
+  "answer_is_correct": false
+ },
+ {
+  "seed": 1,
+  "correct_total": 219,
+  "drifted_total": 324,
+  "drift_steps_adding_SKIP": [
+   7,
+   9,
+   11
+  ],
+  "answer_is_correct": false
+ },
+ {
+  "seed": 2,
+  "correct_total": 226,
+  "drifted_total": 226,
+  "drift_steps_adding_SKIP": [],
+  "answer_is_correct": true
+ },
+ {
+  "seed": 3,
+  "correct_total": 229,
+  "drifted_total": 252,
+  "drift_steps_adding_SKIP": [
+   11
+  ],
+  "answer_is_correct": false
+ },
+ {
+  "seed": 4,
+  "correct_total": 345,
+  "drifted_total": 379,
+  "drift_steps_adding_SKIP": [
+   10
+  ],
+  "answer_is_correct": false
+ }
+]

@@ -1,0 +1,30 @@
+{
+ "model": {
+  "L": 60,
+  "K": 6,
+  "BUDGET": 360,
+  "REPS": 20000
+ },
+ "results": {
+  "local": {
+   "repair": {
+    "comp": 1.0,
+    "work": 68.2
+   },
+   "restart": {
+    "comp": 0.976,
+    "work": 127.4
+   }
+  },
+  "drift": {
+   "repair": {
+    "comp": 0.283,
+    "work": 275.1
+   },
+   "restart": {
+    "comp": 0.977,
+    "work": 127.1
+   }
+  }
+ }
+}

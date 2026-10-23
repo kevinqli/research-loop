@@ -1,0 +1,180 @@
+{
+ "model": {
+  "A_CAL": 40,
+  "REPS": 4000,
+  "DELTA": 1.0
+ },
+ "arms": {
+  "A_separate_once": [
+   {
+    "R": 1,
+    "arm": "A_separate_once",
+    "believed": 0.8835,
+    "true": 0.8834,
+    "gap": 0.0001,
+    "ci": [
+     -0.0015,
+     0.0017
+    ]
+   },
+   {
+    "R": 3,
+    "arm": "A_separate_once",
+    "believed": 0.9088,
+    "true": 0.9093,
+    "gap": -0.0005,
+    "ci": [
+     -0.002,
+     0.0008
+    ]
+   },
+   {
+    "R": 10,
+    "arm": "A_separate_once",
+    "believed": 0.9282,
+    "true": 0.9283,
+    "gap": -0.0001,
+    "ci": [
+     -0.0014,
+     0.0011
+    ]
+   },
+   {
+    "R": 30,
+    "arm": "A_separate_once",
+    "believed": 0.9363,
+    "true": 0.9363,
+    "gap": -0.0,
+    "ci": [
+     -0.0012,
+     0.0011
+    ]
+   },
+   {
+    "R": 100,
+    "arm": "A_separate_once",
+    "believed": 0.94,
+    "true": 0.9402,
+    "gap": -0.0001,
+    "ci": [
+     -0.0012,
+     0.001
+    ]
+   }
+  ],
+  "B_reuse_heldout": [
+   {
+    "R": 1,
+    "arm": "B_reuse_heldout",
+    "believed": 0.8831,
+    "true": 0.8834,
+    "gap": -0.0004,
+    "ci": [
+     -0.0019,
+     0.0013
+    ]
+   },
+   {
+    "R": 3,
+    "arm": "B_reuse_heldout",
+    "believed": 0.9388,
+    "true": 0.9093,
+    "gap": 0.0295,
+    "ci": [
+     0.0284,
+     0.0307
+    ]
+   },
+   {
+    "R": 10,
+    "arm": "B_reuse_heldout",
+    "believed": 0.9706,
+    "true": 0.9283,
+    "gap": 0.0423,
+    "ci": [
+     0.0414,
+     0.0432
+    ]
+   },
+   {
+    "R": 30,
+    "arm": "B_reuse_heldout",
+    "believed": 0.986,
+    "true": 0.9363,
+    "gap": 0.0497,
+    "ci": [
+     0.0489,
+     0.0505
+    ]
+   },
+   {
+    "R": 100,
+    "arm": "B_reuse_heldout",
+    "believed": 0.9951,
+    "true": 0.9402,
+    "gap": 0.0549,
+    "ci": [
+     0.0542,
+     0.0555
+    ]
+   }
+  ],
+  "C_rotate": [
+   {
+    "R": 1,
+    "arm": "C_rotate",
+    "believed": 0.8832,
+    "true": 0.8834,
+    "gap": -0.0003,
+    "ci": [
+     -0.0019,
+     0.0014
+    ]
+   },
+   {
+    "R": 3,
+    "arm": "C_rotate",
+    "believed": 0.9089,
+    "true": 0.9093,
+    "gap": -0.0004,
+    "ci": [
+     -0.0018,
+     0.0011
+    ]
+   },
+   {
+    "R": 10,
+    "arm": "C_rotate",
+    "believed": 0.9279,
+    "true": 0.9283,
+    "gap": -0.0004,
+    "ci": [
+     -0.0016,
+     0.0009
+    ]
+   },
+   {
+    "R": 30,
+    "arm": "C_rotate",
+    "believed": 0.9358,
+    "true": 0.9363,
+    "gap": -0.0005,
+    "ci": [
+     -0.0017,
+     0.0007
+    ]
+   },
+   {
+    "R": 100,
+    "arm": "C_rotate",
+    "believed": 0.9398,
+    "true": 0.9402,
+    "gap": -0.0004,
+    "ci": [
+     -0.0015,
+     0.0008
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "A_within": [
+  {
+   "rho": 0.0,
+   "auc": 0.506,
+   "mean_dis": 0.967,
+   "mean_err": 0.282
+  },
+  {
+   "rho": 0.2,
+   "auc": 0.5,
+   "mean_dis": 0.865,
+   "mean_err": 0.438
+  },
+  {
+   "rho": 0.5,
+   "auc": 0.5,
+   "mean_dis": 0.684,
+   "mean_err": 0.601
+  },
+  {
+   "rho": 0.8,
+   "auc": 0.502,
+   "mean_dis": 0.433,
+   "mean_err": 0.728
+  },
+  {
+   "rho": 1.0,
+   "auc": 0.5,
+   "mean_dis": 0.0,
+   "mean_err": 0.802
+  }
+ ],
+ "B_across_auc": 0.755,
+ "C_vs_N": [
+  {
+   "N": 1,
+   "indep": 0.796,
+   "shared": 0.798
+  },
+  {
+   "N": 2,
+   "indep": 0.566,
+   "shared": 0.754
+  },
+  {
+   "N": 4,
+   "indep": 0.397,
+   "shared": 0.738
+  },
+  {
+   "N": 8,
+   "indep": 0.283,
+   "shared": 0.73
+  },
+  {
+   "N": 16,
+   "indep": 0.2,
+   "shared": 0.723
+  },
+  {
+   "N": 32,
+   "indep": 0.141,
+   "shared": 0.717
+  },
+  {
+   "N": 64,
+   "indep": 0.099,
+   "shared": 0.719
+  }
+ ]
+}

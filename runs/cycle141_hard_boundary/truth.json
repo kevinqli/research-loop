@@ -1,0 +1,7 @@
+{
+ "wall_after_progress": "borderline",
+ "near_wall_subtle": "borderline",
+ "final_fresh_high": "borderline",
+ "clear_wall": "control_wall",
+ "genuine_progress": "control_stoch"
+}

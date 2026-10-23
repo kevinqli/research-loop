@@ -1,0 +1,70 @@
+{
+ "MU": 1.0,
+ "SIGMA_Q": 1.0,
+ "K": 20,
+ "REPS": 40000,
+ "positive_verifier": {
+  "0.3": {
+   "select_true_mean": 2.7895598555886534,
+   "select_true_std": 0.5795659945519591,
+   "select_reported_mean": 2.9503580379740293,
+   "select_curse": 0.1607981823853759,
+   "ensemble_true_mean": 1.0010304832147439,
+   "ensemble_true_std": 0.2242792887049023,
+   "ensemble_reported_mean": 1.0009937951028387,
+   "ensemble_curse": -3.668811190515875e-05
+  },
+  "0.6": {
+   "select_true_mean": 2.5992774166057986,
+   "select_true_std": 0.6811072643558255,
+   "select_reported_mean": 3.172617908775923,
+   "select_curse": 0.5733404921701246,
+   "ensemble_true_mean": 1.0008337964688776,
+   "ensemble_true_std": 0.22392013750251816,
+   "ensemble_reported_mean": 0.9994506015623312,
+   "ensemble_curse": -0.00138319490654637
+  },
+  "1.0": {
+   "select_true_mean": 2.326201900209573,
+   "select_true_std": 0.8031211266951577,
+   "select_reported_mean": 3.6391204741453604,
+   "select_curse": 1.3129185739357876,
+   "ensemble_true_mean": 0.9997953754225708,
+   "ensemble_true_std": 0.22332265106172666,
+   "ensemble_reported_mean": 0.9995387198046372,
+   "ensemble_curse": -0.0002566556179336432
+  },
+  "2.0": {
+   "select_true_mean": 1.8301042856625411,
+   "select_true_std": 0.9252544047557872,
+   "select_reported_mean": 5.180314780436059,
+   "select_curse": 3.350210494773518,
+   "ensemble_true_mean": 1.0006560932875426,
+   "ensemble_true_std": 0.22367053862495842,
+   "ensemble_reported_mean": 1.0006816977255386,
+   "ensemble_curse": 2.560443799604073e-05
+  },
+  "4.0": {
+   "select_true_mean": 1.4516385340459501,
+   "select_true_std": 0.97946497201911,
+   "select_reported_mean": 8.675654692808951,
+   "select_curse": 7.224016158763002,
+   "ensemble_true_mean": 0.9984435454806461,
+   "ensemble_true_std": 0.22522045596155768,
+   "ensemble_reported_mean": 0.9926412141824327,
+   "ensemble_curse": -0.005802331298213392
+  }
+ },
+ "anti_verifier": {
+  "sigma_v_1.0": {
+   "select_true_mean": -0.3218519173458667,
+   "select_true_std": 0.7976384184729597,
+   "select_reported_mean": 3.6356977281991893,
+   "select_curse": 3.957549645545056,
+   "ensemble_true_mean": 0.9988216904988478,
+   "ensemble_true_std": 0.22428472631601196,
+   "ensemble_reported_mean": 1.0008696659636347,
+   "ensemble_curse": 0.0020479754647868553
+  }
+ }
+}

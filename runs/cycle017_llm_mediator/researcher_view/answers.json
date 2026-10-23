@@ -1,0 +1,33 @@
+{
+  "data_only": {
+    "q1": {
+      "verdict": "REAL",
+      "note": "Marginal effect is large and highly significant (2.887, p≈0); dramatic shrinkage when conditioning is ambiguous without context (could indicate mediation or confounding)."
+    },
+    "q2": {
+      "verdict": "NULL",
+      "note": "Marginal effect becomes essentially zero when conditioned (1.861→-0.005, p=0.93); shrinkage pattern suggests a confounder explains the marginal association."
+    },
+    "q3": {
+      "verdict": "NULL",
+      "note": "Marginal effect is small and non-significant (−0.064, p=0.41); reversal when conditioning suggests conditioning introduces bias rather than removing it."
+    }
+  },
+  "with_role": {
+    "q1": {
+      "verdict": "REAL",
+      "condition_on_Z": false,
+      "reason": "Z is a post-treatment mediator on the causal pathway T→Z→Y; the marginal effect (2.887, p=0.0) correctly estimates the total causal effect."
+    },
+    "q2": {
+      "verdict": "NULL",
+      "condition_on_Z": true,
+      "reason": "Z is a pre-treatment confounder affecting both assignment to T and the outcome Y; the conditioned effect (−0.005, p=0.93) removes confounding bias, revealing no significant causal effect."
+    },
+    "q3": {
+      "verdict": "NULL",
+      "condition_on_Z": false,
+      "reason": "Z is a post-treatment collider influenced by both T and an unmeasured confounder U that also affects Y; conditioning on Z opens a spurious path, so the marginal effect (−0.064, p=0.41) correctly estimates no significant causal effect."
+    }
+  }
+}

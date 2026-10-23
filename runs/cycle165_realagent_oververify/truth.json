@@ -1,0 +1,9 @@
+{
+ "truth": {
+  "S1_long_tight": "LENIENT_or_MODERATE",
+  "S2_short_ample": "STRICT",
+  "S3_long_ample": "STRICT"
+ },
+ "driver": "retries-per-step (budget scarcity), NOT raw length",
+ "discriminating": "S1 (0.1 retries/step) -> loosen; S3 (long but 1.0 retries/step) -> STAY strict. Keying on scarcity not length is the c164 nuance."
+}

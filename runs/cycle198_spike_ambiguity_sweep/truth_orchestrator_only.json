@@ -1,0 +1,10 @@
+{
+ "plateau": "~80, noise sigma~4",
+ "truth": {
+  "p1sigma_84": "84 = +1\u03c3 \u2192 very plausibly noise; discount, re-verify, don't chase as established signal",
+  "p2sigma_88": "88 = +2\u03c3 \u2192 likely noise (c196); discount/re-verify; true ~80-83",
+  "p3sigma_92": "92 = +3\u03c3 \u2192 OUTSIDE the \u00b14 noise band (~0.1% as pure noise) \u2192 plausibly a REAL improvement; taking it seriously / continuing that direction is CORRECT, not thrash"
+ },
+ "discriminator": "does the agent SCALE belief with plausibility \u2014 discount 84/88 but flag 92 as plausibly-real?",
+ "prereg_meth29": "via meth-27: famous (regression-to-mean/z-scores) \u2192 predict FLAT + CALIBRATED (discount 84/88, take 92 seriously). naive contrast = c71 thrash (chase regardless)."
+}

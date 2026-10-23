@@ -1,0 +1,6 @@
+{
+ "setup": "FIXED interactive: improving r1-5 (63->83) + plateau r6-7 + +2\u03c3 spike(89) r8; agent authors every candidate; empty-history STOP blocked; cap 10",
+ "prereg_meth29": "authorship does NOT flip it: discounts the r8 89 toward the ~83 plateau (winner's-curse/noise) + ships ~83-85 despite real sunk-cost; real\u2248framed\u2248given-log\u2248calibrated",
+ "moat_alt": "authorship -> OVER-believe ('my breakthrough', ship/chase the 89) = NEW failure mode given-log+framed probes missed",
+ "discriminator": "READ the round-8+ replies: discount-the-89 vs ship/chase-the-89; and whether it STOPS appropriately near the plateau"
+}

@@ -1,0 +1,11 @@
+{
+ "rho": 0.3,
+ "auc_insample": 0.4889947916666666,
+ "auc_erasurvival": 1.0,
+ "auc_causaladjust": 0.4891666666666667,
+ "ci": {
+  "insample": 0.012021949657722518,
+  "erasurv": 0.0,
+  "adjust": 0.011978234635523721
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "rows": [
+  {
+   "seed": 1,
+   "obs": 1.24,
+   "true": 0.911,
+   "gap": 0.328,
+   "haiku_plain": 0.65,
+   "haiku_hint": 0.87,
+   "opus_plain": 0.8
+  },
+  {
+   "seed": 2,
+   "obs": 1.67,
+   "true": 1.4,
+   "gap": 0.273,
+   "haiku_plain": 1.0,
+   "haiku_hint": 1.1,
+   "opus_plain": 0.6
+  },
+  {
+   "seed": 3,
+   "obs": 2.04,
+   "true": 2.161,
+   "gap": -0.12,
+   "haiku_plain": 0.68,
+   "haiku_hint": 1.5,
+   "opus_plain": 0.6
+  },
+  {
+   "seed": 4,
+   "obs": 1.85,
+   "true": 0.497,
+   "gap": 1.352,
+   "haiku_plain": 0.6,
+   "haiku_hint": 0.75,
+   "opus_plain": 0.7
+  }
+ ],
+ "mean_est": {
+  "haiku_plain": 0.733,
+  "opus_plain": 0.675,
+  "haiku_hint": 1.055
+ },
+ "all_estimates_below_observed": {
+  "haiku_plain": true,
+  "opus_plain": true
+ },
+ "corr_estimate_vs_TRUE": {
+  "haiku_plain": 0.309,
+  "opus_plain": -0.685
+ },
+ "corr_estimate_vs_OBSERVED": {
+  "haiku_plain": -0.042,
+  "opus_plain": -0.784
+ },
+ "high_true_strategies_crushed": [
+  {
+   "seed": 2,
+   "true": 1.4,
+   "haiku": 1.0,
+   "opus": 0.6
+  },
+  {
+   "seed": 3,
+   "true": 2.161,
+   "haiku": 0.68,
+   "opus": 0.6
+  }
+ ]
+}

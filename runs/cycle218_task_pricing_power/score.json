@@ -1,0 +1,77 @@
+{
+  "cycle": 218,
+  "item": "#34-power",
+  "REPS": 600,
+  "T0": 8,
+  "dup_delta": 0.15,
+  "rows": [
+    {
+      "N": 10,
+      "dup_mean": -0.02008080808080808,
+      "div_mean": 0.012323232323232318,
+      "dup_sd": 0.1407377242600395,
+      "acc_dup_wasted": 0.59,
+      "acc_div_valuable": 0.5033333333333333,
+      "acc_balanced": 0.5466666666666666,
+      "sep_div_gt_dup": 0.5548305555555556
+    },
+    {
+      "N": 20,
+      "dup_mean": -0.0003684210526315762,
+      "div_mean": 0.013847117794486214,
+      "dup_sd": 0.08162087288746359,
+      "acc_dup_wasted": 0.5433333333333333,
+      "acc_div_valuable": 0.57,
+      "acc_balanced": 0.5566666666666666,
+      "sep_div_gt_dup": 0.5607777777777778
+    },
+    {
+      "N": 40,
+      "dup_mean": -0.011457786116322706,
+      "div_mean": 0.011928705440900569,
+      "dup_sd": 0.05027438453539075,
+      "acc_dup_wasted": 0.5816666666666667,
+      "acc_div_valuable": 0.59,
+      "acc_balanced": 0.5858333333333333,
+      "sep_div_gt_dup": 0.6300611111111111
+    },
+    {
+      "N": 80,
+      "dup_mean": -0.007656235349273319,
+      "div_mean": 0.01329313173933427,
+      "dup_sd": 0.03451644030187595,
+      "acc_dup_wasted": 0.6166666666666667,
+      "acc_div_valuable": 0.665,
+      "acc_balanced": 0.6408333333333334,
+      "sep_div_gt_dup": 0.6806472222222222
+    },
+    {
+      "N": 160,
+      "dup_mean": -0.008856278565568972,
+      "div_mean": 0.0122072102425876,
+      "dup_sd": 0.022567686423376306,
+      "acc_dup_wasted": 0.6383333333333333,
+      "acc_div_valuable": 0.705,
+      "acc_balanced": 0.6716666666666666,
+      "sep_div_gt_dup": 0.7456777777777778
+    },
+    {
+      "N": 320,
+      "dup_mean": -0.008367399217765803,
+      "div_mean": 0.01122675575445073,
+      "dup_sd": 0.015847191449150103,
+      "acc_dup_wasted": 0.7116666666666667,
+      "acc_div_valuable": 0.7683333333333333,
+      "acc_balanced": 0.74,
+      "sep_div_gt_dup": 0.8173861111111111
+    }
+  ],
+  "n90_balanced_acc": null,
+  "n90_separation": null,
+  "sd_scaling_k": 0.3342838827399112,
+  "N_oneshot_90pct": 2260,
+  "reps_at_N80_90pct": 24,
+  "verdict_P1_acc_rises_with_N": true,
+  "verdict_P2_needs_moderate_N": false,
+  "verdict_P3_dup_easier": false
+}

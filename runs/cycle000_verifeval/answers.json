@@ -1,0 +1,32 @@
+{
+ "t0": {
+  "A": "REAL",
+  "B": "REAL",
+  "reason": "marginal |t|=5.0"
+ },
+ "t1": {
+  "A": "REAL",
+  "B": "REAL",
+  "reason": "marginal |t|=4.8"
+ },
+ "t2": {
+  "A": "NULL",
+  "B": "NULL",
+  "reason": "marginal |t|=0.1"
+ },
+ "t3": {
+  "A": "NULL",
+  "B": "NULL",
+  "reason": "marginal |t|=0.3; within-group |t|~0.6 (consistent null)"
+ },
+ "t4": {
+  "A": "NULL",
+  "B": "NULL",
+  "reason": "marginal |t|=1.9; small n=16 borderline"
+ },
+ "t5": {
+  "A": "REAL",
+  "B": "REAL",
+  "reason": "marginal |t|=4.2"
+ }
+}

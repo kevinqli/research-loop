@@ -1,0 +1,33 @@
+{
+ "params": {
+  "N": 50,
+  "REPS": 20000,
+  "beta": 0.8
+ },
+ "results": [
+  {
+   "label": "feature-NEUTRAL selection",
+   "gamma_sel": 0.0,
+   "beta": 0.8,
+   "true_theta_selected": 1.5868157929067195,
+   "naive_bias": 1.58458250668827,
+   "unbiased_heldout_bias": 0.0004826213213751899,
+   "biased_heldout_bias": -0.005679541906441419,
+   "biased_heldout_sd": 1.2803433048900001,
+   "E_f_given_selected": 0.00037515036740353835
+  },
+  {
+   "label": "feature-ALIGNED selection",
+   "gamma_sel": 1.0,
+   "beta": 0.8,
+   "true_theta_selected": 1.2949287109673595,
+   "naive_bias": 2.600401257609979,
+   "unbiased_heldout_bias": -0.009020287329156796,
+   "biased_heldout_bias": 1.045959222038064,
+   "biased_heldout_sd": 1.2155631127432236,
+   "E_f_given_selected": 1.3084488290394762
+  }
+ ],
+ "predicted_aligned_bias": 1.046759063231581,
+ "verdict": "CONFIRMED: independence does NOT remove a verifier's systematic bias when it aligns with selection \u2192 3rd requirement = UNBIASED/CALIBRATED verifier"
+}

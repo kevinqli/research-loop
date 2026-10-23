@@ -1,0 +1,42 @@
+{
+ "t0": {
+  "A": "REAL",
+  "B_sound": "REAL",
+  "B_collider": "REAL"
+ },
+ "t1": {
+  "A": "NULL",
+  "B_sound": "NULL",
+  "B_collider": "NULL"
+ },
+ "t2": {
+  "A": "NULL",
+  "B_sound": "NULL",
+  "B_collider": "NULL"
+ },
+ "t3": {
+  "A": "NULL",
+  "B_sound": "NULL",
+  "B_collider": "NULL"
+ },
+ "t4": {
+  "A": "REAL",
+  "B_sound": "REAL",
+  "B_collider": "REAL"
+ },
+ "t5": {
+  "A": "REAL",
+  "B_sound": "NULL",
+  "B_collider": "NULL"
+ },
+ "t6": {
+  "A": "REAL",
+  "B_sound": "NULL",
+  "B_collider": "NULL"
+ },
+ "t8": {
+  "A": "NULL",
+  "B_sound": "REAL",
+  "B_collider": "NULL"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "0.05": {
+  "REAL": {
+   "outcome": 0.808,
+   "process": 1.0
+  },
+  "OVERFIT": {
+   "outcome": 1.0,
+   "process": 1.0
+  },
+  "LEAKY": {
+   "outcome": 0.0,
+   "process": 1.0
+  },
+  "CLEAN-NOISE": {
+   "outcome": 0.886,
+   "process": 0.0
+  }
+ },
+ "0.15": {
+  "REAL": {
+   "outcome": 0.988,
+   "process": 1.0
+  },
+  "OVERFIT": {
+   "outcome": 0.998,
+   "process": 1.0
+  },
+  "LEAKY": {
+   "outcome": 0.0,
+   "process": 1.0
+  },
+  "CLEAN-NOISE": {
+   "outcome": 0.88,
+   "process": 0.0
+  }
+ },
+ "0.4": {
+  "REAL": {
+   "outcome": 1.0,
+   "process": 1.0
+  },
+  "OVERFIT": {
+   "outcome": 0.998,
+   "process": 1.0
+  },
+  "LEAKY": {
+   "outcome": 0.0,
+   "process": 1.0
+  },
+  "CLEAN-NOISE": {
+   "outcome": 0.872,
+   "process": 0.0
+  }
+ }
+}

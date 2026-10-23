@@ -1,0 +1,66 @@
+{
+ "rows": [
+  {
+   "seed": 0,
+   "drift": true,
+   "n_violations": 2,
+   "LOCAL_haiku": "INCORRECT",
+   "LOCAL_caught": true,
+   "GROUNDING_haiku": "INCORRECT",
+   "GROUNDING_caught": true,
+   "LOCAL_opus": null,
+   "control_both_correct": null
+  },
+  {
+   "seed": 1,
+   "drift": true,
+   "n_violations": 3,
+   "LOCAL_haiku": "INCORRECT",
+   "LOCAL_caught": true,
+   "GROUNDING_haiku": "INCORRECT",
+   "GROUNDING_caught": true,
+   "LOCAL_opus": null,
+   "control_both_correct": null
+  },
+  {
+   "seed": 2,
+   "drift": false,
+   "n_violations": 0,
+   "LOCAL_haiku": "CORRECT",
+   "LOCAL_caught": null,
+   "GROUNDING_haiku": "CORRECT",
+   "GROUNDING_caught": null,
+   "LOCAL_opus": null,
+   "control_both_correct": true
+  },
+  {
+   "seed": 3,
+   "drift": true,
+   "n_violations": 1,
+   "LOCAL_haiku": "CORRECT",
+   "LOCAL_caught": false,
+   "GROUNDING_haiku": "INCORRECT",
+   "GROUNDING_caught": true,
+   "LOCAL_opus": "CORRECT",
+   "control_both_correct": null
+  },
+  {
+   "seed": 4,
+   "drift": true,
+   "n_violations": 1,
+   "LOCAL_haiku": "CORRECT",
+   "LOCAL_caught": false,
+   "GROUNDING_haiku": "INCORRECT",
+   "GROUNDING_caught": true,
+   "LOCAL_opus": "CORRECT",
+   "control_both_correct": null
+  }
+ ],
+ "drift_positive_n": 4,
+ "GROUNDING_catch": "4/4",
+ "LOCAL_catch": "2/4",
+ "LOCAL_flagrant_catch": "2/2 (>=2 violations)",
+ "LOCAL_subtle_catch": "0/2 (1 violation)",
+ "LOCAL_subtle_opus_catch": "0/2",
+ "control_seed2_both_correct": true
+}

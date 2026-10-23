@@ -1,0 +1,83 @@
+{
+ "rows": [
+  {
+   "scen": "wall1",
+   "type": "wall",
+   "model": "haiku",
+   "decision": "CHANGE-APPROACH"
+  },
+  {
+   "scen": "wall1",
+   "type": "wall",
+   "model": "opus",
+   "decision": "CHANGE-APPROACH"
+  },
+  {
+   "scen": "wall2",
+   "type": "wall",
+   "model": "haiku",
+   "decision": "CHANGE-APPROACH"
+  },
+  {
+   "scen": "wall2",
+   "type": "wall",
+   "model": "opus",
+   "decision": "CHANGE-APPROACH"
+  },
+  {
+   "scen": "wall3",
+   "type": "wall",
+   "model": "haiku",
+   "decision": "CHANGE-APPROACH"
+  },
+  {
+   "scen": "wall3",
+   "type": "wall",
+   "model": "opus",
+   "decision": "CHANGE-APPROACH"
+  },
+  {
+   "scen": "stoch1",
+   "type": "stoch",
+   "model": "haiku",
+   "decision": "RETRY"
+  },
+  {
+   "scen": "stoch1",
+   "type": "stoch",
+   "model": "opus",
+   "decision": "CHANGE-APPROACH"
+  },
+  {
+   "scen": "stoch2",
+   "type": "stoch",
+   "model": "haiku",
+   "decision": "NO-DECISION"
+  },
+  {
+   "scen": "stoch2",
+   "type": "stoch",
+   "model": "opus",
+   "decision": "RETRY"
+  },
+  {
+   "scen": "stoch3",
+   "type": "stoch",
+   "model": "haiku",
+   "decision": "RETRY"
+  },
+  {
+   "scen": "stoch3",
+   "type": "stoch",
+   "model": "opus",
+   "decision": "RETRY"
+  }
+ ],
+ "WALL_not_retry": "6/6",
+ "WALL_change_approach": "6/6",
+ "WALL_retry_loops": 0,
+ "STOCH_not_escalate": "5/5",
+ "STOCH_retry": "4/5",
+ "STOCH_parsed": 5,
+ "no_decision": 1
+}

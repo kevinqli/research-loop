@@ -1,0 +1,26 @@
+{
+ "task1": {
+  "verifier_oos_r2": 0.0409,
+  "note": "Very weak signal; likely overfit or no signal."
+ },
+ "task2": {
+  "verifier_oos_r2": 0.064,
+  "note": "Weak but potentially real signal."
+ },
+ "task3": {
+  "verifier_oos_r2": 0.0503,
+  "note": "Weak but potentially real signal."
+ },
+ "task4": {
+  "verifier_oos_r2": 0.1378,
+  "note": "Weak but potentially real signal."
+ },
+ "task5": {
+  "verifier_oos_r2": 0.2567,
+  "note": "Reasonable signal; appears moderately real."
+ },
+ "task6": {
+  "verifier_oos_r2": 0.4269,
+  "note": "Reasonable signal; appears moderately real."
+ }
+}

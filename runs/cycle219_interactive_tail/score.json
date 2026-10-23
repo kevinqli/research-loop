@@ -1,0 +1,22 @@
+{
+ "model": "opus",
+ "max_rounds": 9,
+ "results": [
+  {
+   "rep": 0,
+   "stopped": true,
+   "stop_round": 3,
+   "n_rounds": 3,
+   "saw_spike": false,
+   "final_reply": "STOP: ship round 1; the best score is not a real improvement because rounds 2's 80.7 is within scorer noise of round 1's 80.9 \u2014 a 0.2 gap is statistically meaningless."
+  },
+  {
+   "rep": 1,
+   "stopped": true,
+   "stop_round": 1,
+   "n_rounds": 1,
+   "saw_spike": false,
+   "final_reply": "STOP: ship round 0; the best score is not a real improvement because no candidate has been proposed or scored yet, so there is nothing to ship."
+  }
+ ]
+}

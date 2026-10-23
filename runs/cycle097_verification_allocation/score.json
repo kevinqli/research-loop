@@ -1,0 +1,130 @@
+{
+ "model": {
+  "REPS": 20000,
+  "SIG_THETA": 1.0
+ },
+ "A_vs_K": {
+  "4": {
+   "uniform": {
+    "p_correct": 0.635,
+    "regret": 0.2297,
+    "budget_used": 24
+   },
+   "sh": {
+    "p_correct": 0.628,
+    "regret": 0.2322,
+    "budget_used": 24
+   }
+  },
+  "8": {
+   "uniform": {
+    "p_correct": 0.521,
+    "regret": 0.3234,
+    "budget_used": 48
+   },
+   "sh": {
+    "p_correct": 0.553,
+    "regret": 0.2807,
+    "budget_used": 48
+   }
+  },
+  "16": {
+   "uniform": {
+    "p_correct": 0.44,
+    "regret": 0.3999,
+    "budget_used": 96
+   },
+   "sh": {
+    "p_correct": 0.506,
+    "regret": 0.2967,
+    "budget_used": 88
+   }
+  },
+  "32": {
+   "uniform": {
+    "p_correct": 0.369,
+    "regret": 0.468,
+    "budget_used": 192
+   },
+   "sh": {
+    "p_correct": 0.495,
+    "regret": 0.2718,
+    "budget_used": 170
+   }
+  },
+  "64": {
+   "uniform": {
+    "p_correct": 0.32,
+    "regret": 0.5233,
+    "budget_used": 384
+   },
+   "sh": {
+    "p_correct": 0.539,
+    "regret": 0.2002,
+    "budget_used": 384
+   }
+  }
+ },
+ "B_vs_budget": {
+  "2": {
+   "uniform": {
+    "p_correct": 0.218,
+    "regret": 0.871,
+    "budget_used": 64
+   },
+   "sh": {
+    "p_correct": 0.335,
+    "regret": 0.5331,
+    "budget_used": 80
+   }
+  },
+  "4": {
+   "uniform": {
+    "p_correct": 0.31,
+    "regret": 0.6013,
+    "budget_used": 128
+   },
+   "sh": {
+    "p_correct": 0.421,
+    "regret": 0.3673,
+    "budget_used": 120
+   }
+  },
+  "8": {
+   "uniform": {
+    "p_correct": 0.421,
+    "regret": 0.3784,
+    "budget_used": 256
+   },
+   "sh": {
+    "p_correct": 0.543,
+    "regret": 0.2142,
+    "budget_used": 226
+   }
+  },
+  "16": {
+   "uniform": {
+    "p_correct": 0.535,
+    "regret": 0.219,
+    "budget_used": 512
+   },
+   "sh": {
+    "p_correct": 0.679,
+    "regret": 0.0977,
+    "budget_used": 490
+   }
+  },
+  "32": {
+   "uniform": {
+    "p_correct": 0.645,
+    "regret": 0.1167,
+    "budget_used": 1024
+   },
+   "sh": {
+    "p_correct": 0.782,
+    "regret": 0.0429,
+    "budget_used": 992
+   }
+  }
+ }
+}

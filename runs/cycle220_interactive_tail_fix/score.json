@@ -1,0 +1,40 @@
+{
+ "model": "opus",
+ "max_rounds": 10,
+ "spike_round": 8,
+ "results": [
+  {
+   "rep": 0,
+   "stopped": true,
+   "stop_round": 8,
+   "n_proposed": 7,
+   "spike_score": null,
+   "reached_spike": false,
+   "scores": [
+    64.0,
+    66.8,
+    74.7,
+    76.9,
+    81.8,
+    78.9,
+    82.2
+   ],
+   "final_reply": "STOP: ship round 7; the best score (82.2) is not a real improvement over round 5 (81.8) because the ~0.4 gap is within scorer noise, and rounds 6/8-style additions have only hurt or plateaued."
+  },
+  {
+   "rep": 1,
+   "stopped": true,
+   "stop_round": 5,
+   "n_proposed": 4,
+   "spike_score": null,
+   "reached_spike": false,
+   "scores": [
+    62.5,
+    69.7,
+    75.4,
+    75.4
+   ],
+   "final_reply": "STOP: ship round 3; the best score (75.4) is not a real improvement over round 4 because rounds 3 and 4 tied exactly, suggesting added SA-acceptance complexity yields no measurable gain and we're at a plateau."
+  }
+ ]
+}

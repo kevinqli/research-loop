@@ -1,0 +1,5 @@
+{
+ "Q1": "sharp threshold lambda*~0.25, grows with K",
+ "Q2": "sigma_v* K-dependence FLIPS sign with lambda (rises w/K at low lambda, falls at high lambda, flip ~0.75)",
+ "prereg": "even isolated: sign-flip NOT reliably derived (Opus ~1/2 prior-backwards, Haiku ~1/2); qualitative reliable. meth-30 validated iff 0 file-cites."
+}

@@ -1,0 +1,9 @@
+{
+ "naive_rounds": 19.27,
+ "verified_rounds": 24.825,
+ "naive_true": -0.19524999999999998,
+ "verified_true": -0.06849999999999999,
+ "full_true": 0.0,
+ "plateau_P": 20,
+ "TMAX": 50
+}

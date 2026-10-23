@@ -1,0 +1,59 @@
+{
+ "model": {
+  "REPS": 20000,
+  "N": 100,
+  "L": 80,
+  "K": 5
+ },
+ "sweep": {
+  "1.0": {
+   "gap": 0.09099,
+   "ci": 0.00045,
+   "reeval_gap": -0.00033,
+   "true_skill": 0.8115,
+   "obs_winner": 0.9986
+  },
+  "0.9": {
+   "gap": 0.105,
+   "ci": 0.00051,
+   "reeval_gap": -1e-05,
+   "true_skill": 0.7882,
+   "obs_winner": 0.9985
+  },
+  "0.7": {
+   "gap": 0.14005,
+   "ci": 0.00062,
+   "reeval_gap": 0.00027,
+   "true_skill": 0.7304,
+   "obs_winner": 0.9983
+  },
+  "0.5": {
+   "gap": 0.1942,
+   "ci": 0.00079,
+   "reeval_gap": -0.00017,
+   "true_skill": 0.6514,
+   "obs_winner": 0.998
+  },
+  "0.3": {
+   "gap": 0.28487,
+   "ci": 0.001,
+   "reeval_gap": -0.00097,
+   "true_skill": 0.5356,
+   "obs_winner": 0.9973
+  },
+  "0.1": {
+   "gap": 0.46116,
+   "ci": 0.00119,
+   "reeval_gap": -0.0024,
+   "true_skill": 0.3477,
+   "obs_winner": 0.9951
+  },
+  "0.0": {
+   "gap": 0.62374,
+   "ci": 0.00127,
+   "reeval_gap": 0.00306,
+   "true_skill": 0.2015,
+   "obs_winner": 0.9902
+  }
+ }
+}

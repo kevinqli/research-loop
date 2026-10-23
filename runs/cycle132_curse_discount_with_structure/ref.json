@@ -1,0 +1,34 @@
+[
+ {
+  "seed": 1,
+  "obs_winner": 1.24,
+  "true_winner": 0.911,
+  "bayes_ref": 0.803,
+  "c131_haiku": null,
+  "c131_opus": null
+ },
+ {
+  "seed": 2,
+  "obs_winner": 1.67,
+  "true_winner": 1.4,
+  "bayes_ref": 0.98,
+  "c131_haiku": null,
+  "c131_opus": null
+ },
+ {
+  "seed": 3,
+  "obs_winner": 2.04,
+  "true_winner": 2.161,
+  "bayes_ref": 1.131,
+  "c131_haiku": null,
+  "c131_opus": null
+ },
+ {
+  "seed": 4,
+  "obs_winner": 1.85,
+  "true_winner": 0.497,
+  "bayes_ref": 1.053,
+  "c131_haiku": null,
+  "c131_opus": null
+ }
+]

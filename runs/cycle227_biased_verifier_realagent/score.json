@@ -1,0 +1,38 @@
+{
+ "haiku_plain": {
+  "gap": 0.0,
+  "detail": [
+   1,
+   1,
+   -1,
+   -1
+  ]
+ },
+ "haiku_careful": {
+  "gap": 0.0,
+  "detail": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "opus_plain": {
+  "gap": 0.5,
+  "detail": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "opus_careful": {
+  "gap": 0.0,
+  "detail": [
+   0,
+   0,
+   0,
+   0
+  ]
+ }
+}

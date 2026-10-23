@@ -1,0 +1,38 @@
+{
+  "task1": {
+    "selected_features": [
+      "feat46",
+      "feat26",
+      "feat13",
+      "feat44",
+      "feat25"
+    ],
+    "expected_validation_r2": 0.1187531553218324,
+    "expected_secret_test_r2": 0.09875315532183239,
+    "note": "Low overfitting risk (train-val gap < 0.04)"
+  },
+  "task2": {
+    "selected_features": [
+      "feat8",
+      "feat16",
+      "feat18",
+      "feat21"
+    ],
+    "expected_validation_r2": 0.09789662505426677,
+    "expected_secret_test_r2": 0.05000515070578909,
+    "note": "High overfitting risk (train-val gap > 0.08)"
+  },
+  "task3": {
+    "selected_features": [
+      "feat14",
+      "feat0",
+      "feat36",
+      "feat48",
+      "feat39",
+      "feat45"
+    ],
+    "expected_validation_r2": 0.10296517603834832,
+    "expected_secret_test_r2": 0.08296517603834831,
+    "note": "Moderate overfitting (train-val gap 0.04-0.08)"
+  }
+}

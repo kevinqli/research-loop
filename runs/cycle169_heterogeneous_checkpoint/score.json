@@ -1,0 +1,28 @@
+{
+ "L": 50,
+ "B": 8,
+ "REPS": 400,
+ "by_mode": {
+  "uniform": {
+   "uniform": 6.6,
+   "difficulty": 6.6,
+   "oracle": 6.6,
+   "uniform_over_oracle": 1.0,
+   "difficulty_over_oracle": 1.0
+  },
+  "mild": {
+   "uniform": 5.998,
+   "difficulty": 5.762,
+   "oracle": 5.251,
+   "uniform_over_oracle": 1.14,
+   "difficulty_over_oracle": 1.1
+  },
+  "spiky": {
+   "uniform": 7.035,
+   "difficulty": 2.82,
+   "oracle": 1.622,
+   "uniform_over_oracle": 4.34,
+   "difficulty_over_oracle": 1.74
+  }
+ }
+}

@@ -1,0 +1,5 @@
+{
+ "truth": "effort-weighted % is WELL BELOW the 70% step-count anchor (integration tail = 50-70% of effort, + latent-bug risk in 2 'done' steps); MORE than half the effort likely remains despite 7/10 steps",
+ "discriminator": "(a) %<70 effort-weighted not step-count; (b) flags integration tail disproportionately costly; (c) flags latent-bug risk",
+ "prereg": "Opus discounts (<70%, names planning fallacy/hard tail/latent bugs); Haiku anchors on step-count (~70%, optimistic remaining). both-discount -> recoverable/famous (meth-27 flat); split -> Haiku inflates"
+}

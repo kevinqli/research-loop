@@ -1,0 +1,277 @@
+{
+ "model": {
+  "REPS": 4000,
+  "DELTA": 1.0
+ },
+ "P1_vs_V": [
+  {
+   "label": "V=1",
+   "V": 1,
+   "A": 40,
+   "sig_range": [
+    0.8,
+    1.6
+   ],
+   "true_best_auc": 0.8807,
+   "apparent_selected": 0.8802,
+   "true_selected": 0.8807,
+   "gap": -0.0005,
+   "gap_ci": [
+    -0.0021,
+    0.0012
+   ],
+   "gap_AFTER_heldout_fix": -0.0004,
+   "fix_ci": [
+    -0.0022,
+    0.0013
+   ]
+  },
+  {
+   "label": "V=3",
+   "V": 3,
+   "A": 40,
+   "sig_range": [
+    0.8,
+    1.6
+   ],
+   "true_best_auc": 0.9615,
+   "apparent_selected": 0.9632,
+   "true_selected": 0.9538,
+   "gap": 0.0094,
+   "gap_ci": [
+    0.0084,
+    0.0104
+   ],
+   "gap_AFTER_heldout_fix": -0.0002,
+   "fix_ci": [
+    -0.0012,
+    0.0007
+   ]
+  },
+  {
+   "label": "V=10",
+   "V": 10,
+   "A": 40,
+   "sig_range": [
+    0.8,
+    1.6
+   ],
+   "true_best_auc": 0.9615,
+   "apparent_selected": 0.9762,
+   "true_selected": 0.9429,
+   "gap": 0.0333,
+   "gap_ci": [
+    0.0324,
+    0.0342
+   ],
+   "gap_AFTER_heldout_fix": -0.0,
+   "fix_ci": [
+    -0.0011,
+    0.0011
+   ]
+  },
+  {
+   "label": "V=25",
+   "V": 25,
+   "A": 40,
+   "sig_range": [
+    0.8,
+    1.6
+   ],
+   "true_best_auc": 0.9615,
+   "apparent_selected": 0.986,
+   "true_selected": 0.9413,
+   "gap": 0.0447,
+   "gap_ci": [
+    0.0439,
+    0.0455
+   ],
+   "gap_AFTER_heldout_fix": 0.0,
+   "fix_ci": [
+    -0.0011,
+    0.0011
+   ]
+  },
+  {
+   "label": "V=50",
+   "V": 50,
+   "A": 40,
+   "sig_range": [
+    0.8,
+    1.6
+   ],
+   "true_best_auc": 0.9615,
+   "apparent_selected": 0.9916,
+   "true_selected": 0.9421,
+   "gap": 0.0494,
+   "gap_ci": [
+    0.0488,
+    0.0502
+   ],
+   "gap_AFTER_heldout_fix": -0.0001,
+   "fix_ci": [
+    -0.0011,
+    0.0011
+   ]
+  }
+ ],
+ "P1_vs_A": [
+  {
+   "label": "A=20",
+   "V": 25,
+   "A": 20,
+   "sig_range": [
+    0.8,
+    1.6
+   ],
+   "true_best_auc": 0.9615,
+   "apparent_selected": 0.9975,
+   "true_selected": 0.9402,
+   "gap": 0.0573,
+   "gap_ci": [
+    0.0564,
+    0.0581
+   ],
+   "gap_AFTER_heldout_fix": -0.0018,
+   "fix_ci": [
+    -0.0035,
+    -0.0002
+   ]
+  },
+  {
+   "label": "A=40",
+   "V": 25,
+   "A": 40,
+   "sig_range": [
+    0.8,
+    1.6
+   ],
+   "true_best_auc": 0.9615,
+   "apparent_selected": 0.986,
+   "true_selected": 0.9413,
+   "gap": 0.0447,
+   "gap_ci": [
+    0.0439,
+    0.0455
+   ],
+   "gap_AFTER_heldout_fix": 0.0,
+   "fix_ci": [
+    -0.0011,
+    0.0011
+   ]
+  },
+  {
+   "label": "A=100",
+   "V": 25,
+   "A": 100,
+   "sig_range": [
+    0.8,
+    1.6
+   ],
+   "true_best_auc": 0.9615,
+   "apparent_selected": 0.9733,
+   "true_selected": 0.9512,
+   "gap": 0.0222,
+   "gap_ci": [
+    0.0217,
+    0.0226
+   ],
+   "gap_AFTER_heldout_fix": -0.0,
+   "fix_ci": [
+    -0.0006,
+    0.0006
+   ]
+  },
+  {
+   "label": "A=400",
+   "V": 25,
+   "A": 400,
+   "sig_range": [
+    0.8,
+    1.6
+   ],
+   "true_best_auc": 0.9615,
+   "apparent_selected": 0.9647,
+   "true_selected": 0.9577,
+   "gap": 0.007,
+   "gap_ci": [
+    0.0068,
+    0.0073
+   ],
+   "gap_AFTER_heldout_fix": -0.0002,
+   "fix_ci": [
+    -0.0005,
+    0.0001
+   ]
+  }
+ ],
+ "P2_similarity": [
+  {
+   "label": "tight[1.0,1.05]",
+   "V": 25,
+   "A": 40,
+   "sig_range": [
+    1.0,
+    1.05
+   ],
+   "true_best_auc": 0.9214,
+   "apparent_selected": 0.9845,
+   "true_selected": 0.9167,
+   "gap": 0.0679,
+   "gap_ci": [
+    0.0676,
+    0.0682
+   ],
+   "gap_AFTER_heldout_fix": -0.0002,
+   "fix_ci": [
+    -0.0016,
+    0.0012
+   ]
+  },
+  {
+   "label": "med[0.9,1.3]",
+   "V": 25,
+   "A": 40,
+   "sig_range": [
+    0.9,
+    1.3
+   ],
+   "true_best_auc": 0.9419,
+   "apparent_selected": 0.9831,
+   "true_selected": 0.9218,
+   "gap": 0.0613,
+   "gap_ci": [
+    0.0606,
+    0.062
+   ],
+   "gap_AFTER_heldout_fix": -0.0001,
+   "fix_ci": [
+    -0.0014,
+    0.0013
+   ]
+  },
+  {
+   "label": "wide[0.6,2.0]",
+   "V": 25,
+   "A": 40,
+   "sig_range": [
+    0.6,
+    2.0
+   ],
+   "true_best_auc": 0.9908,
+   "apparent_selected": 0.9968,
+   "true_selected": 0.9824,
+   "gap": 0.0144,
+   "gap_ci": [
+    0.0139,
+    0.0149
+   ],
+   "gap_AFTER_heldout_fix": 0.0001,
+   "fix_ci": [
+    -0.0004,
+    0.0007
+   ]
+  }
+ ],
+ "P3_fix": []
+}

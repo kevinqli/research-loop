@@ -1,0 +1,6 @@
+{
+ "setup": "fully-interactive: agent proposes each candidate (real authorship sunk-cost); hidden plateau \u03bc=81 \u03c3=4 + a +2\u03c3 spike(89) at round 7; cap 9 rounds",
+ "prereg_meth29": "authorship does NOT induce thrash: stops within ~2 rounds of plateau + DISCOUNTS the round-7 spike as winner's-curse when shipping (real\u2248framed\u2248calibrated)",
+ "moat_alt": "authorship OVER-continues (chases its own spike) or ships the 89 as real \u2192 NEW failure mode given-log probes missed",
+ "compare": "c196 read-own-log discounted+stopped; c200 un-elicited spike OVER-believed"
+}

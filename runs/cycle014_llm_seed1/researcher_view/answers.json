@@ -1,0 +1,42 @@
+{
+  "t0": {
+    "verdict": "REAL",
+    "conditioned_on": "none",
+    "reason": "Marginal: T1 mean=58.08, T0 mean=49.10, diff=8.98, p=0.000"
+  },
+  "t1": {
+    "verdict": "REAL",
+    "conditioned_on": "none",
+    "reason": "Marginal: T1 mean=54.41, T0 mean=49.52, diff=4.89, p=0.000"
+  },
+  "t2": {
+    "verdict": "NULL",
+    "conditioned_on": "none",
+    "reason": "Marginal: T1 mean=49.18, T0 mean=51.48, diff=-2.29, p=0.228"
+  },
+  "t3": {
+    "verdict": "NULL",
+    "conditioned_on": "none",
+    "reason": "Collider bias detected (don't adjust). Marginal=-0.38, within=-0.53"
+  },
+  "t4": {
+    "verdict": "NULL",
+    "conditioned_on": "none",
+    "reason": "Marginal: T1 mean=52.65, T0 mean=50.02, diff=2.63, p=0.301"
+  },
+  "t5": {
+    "verdict": "NULL",
+    "conditioned_on": "group",
+    "reason": "Confounding detected. Within-group effect=-0.25, marginal=7.27"
+  },
+  "t6": {
+    "verdict": "NULL",
+    "conditioned_on": "group",
+    "reason": "Confounding detected. Within-group effect=0.25, marginal=5.02"
+  },
+  "t8": {
+    "verdict": "NULL",
+    "conditioned_on": "none",
+    "reason": "Collider bias detected (don't adjust). Marginal=-2.07, within=-5.66"
+  }
+}

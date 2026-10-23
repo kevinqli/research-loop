@@ -1,0 +1,16 @@
+{
+ "A_curse": {
+  "best_agent_mean": 21.75400714060013,
+  "frontier_mean": 25.273198483568976,
+  "inter_agent_corr": 0.7639782482837286,
+  "heldout_frontier_mean": 20.701565827380293
+ },
+ "B_specialization": {
+  "best_agent_mean": 21.377831420800074,
+  "frontier_mean": 25.14787858012222,
+  "inter_agent_corr": 0.767164036546593,
+  "heldout_frontier_mean": 24.92665045757045
+ },
+ "both_fit_summaries": true,
+ "testretest_disambiguates": true
+}

@@ -1,0 +1,29 @@
+{
+ "decisions": {
+  "haiku": {
+   "S1_long_tight": "MODERATE",
+   "S2_short_ample": "MODERATE",
+   "S3_long_ample": "MODERATE"
+  },
+  "opus": {
+   "S1_long_tight": "MODERATE",
+   "S2_short_ample": "MODERATE",
+   "S3_long_ample": "STRICT"
+  }
+ },
+ "scores": {
+  "haiku": {
+   "adapts_to_budget": false,
+   "S1_scarce": "MODERATE",
+   "S3_ample": "MODERATE",
+   "distinct_answers": 1
+  },
+  "opus": {
+   "adapts_to_budget": true,
+   "S1_scarce": "MODERATE",
+   "S3_ample": "STRICT",
+   "distinct_answers": 2
+  }
+ },
+ "headline": "BOTH RECOGNIZE over-verification's false-alarm budget cost (the c164 mechanism is salient/real to the agent - cite 'false-alarm waste'/'not exhausting the budget' in all scenarios). CAPABILITY SPLIT on ADAPTATION: OPUS adapts stringency to the budget (MODERATE@scarce-S1 -> STRICT@ample-S3) + articulates the c164 inverted-U + budget-conditional rule explicitly ('the budget-rich side of the inverted-U; back off if retries << steps'); HAIKU does NOT adapt (MODERATE everywhere - recognizes the cost but hedges uniformly). HONEST nuances: (a) c164-truth keyed on the RATIO (retries/step); Opus partly keyed on ABSOLUTE budget (S2/S3 same 1.0 ratio, diff answers) - but its S2-MODERATE-vs-S3-STRICT is a DEFENSIBLE variance argument (small budget -> higher exhaustion variance -> more cautious), arguably MORE sophisticated than c164's mean-based tau*; (b) error-rate unspecified -> MODERATE is a defensible hedge vs c164's known-a STRICT. So: the over-verification COST is real-agent-recognized; the budget-conditional ADAPTATION (+ the inverted-U framing) is the capability-sensitive half (Opus nails it, Haiku misses it) - cf c156 verifier-gate + c98 (capable agent reconstructs the playbook)."
+}

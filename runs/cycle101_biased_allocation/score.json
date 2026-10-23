@@ -1,0 +1,68 @@
+{
+ "model": {
+  "REPS": 20000,
+  "K": 32,
+  "SIG": 1.0,
+  "B": 320,
+  "W": 4,
+  "per_arm_uniform": 10
+ },
+ "sweep": {
+  "0.0": {
+   "uniform": {
+    "regret": 0.0965,
+    "p_correct": 0.676
+   },
+   "naive_SH": {
+    "regret": 0.0214,
+    "p_correct": 0.842
+   },
+   "warmup_aware_SH": {
+    "regret": 0.0462,
+    "p_correct": 0.777
+   }
+  },
+  "0.5": {
+   "uniform": {
+    "regret": 0.1436,
+    "p_correct": 0.617
+   },
+   "naive_SH": {
+    "regret": 0.0503,
+    "p_correct": 0.781
+   },
+   "warmup_aware_SH": {
+    "regret": 0.0476,
+    "p_correct": 0.777
+   }
+  },
+  "1.0": {
+   "uniform": {
+    "regret": 0.2357,
+    "p_correct": 0.52
+   },
+   "naive_SH": {
+    "regret": 0.3384,
+    "p_correct": 0.445
+   },
+   "warmup_aware_SH": {
+    "regret": 0.0465,
+    "p_correct": 0.778
+   }
+  },
+  "1.5": {
+   "uniform": {
+    "regret": 0.4377,
+    "p_correct": 0.384
+   },
+   "naive_SH": {
+    "regret": 1.1381,
+    "p_correct": 0.06
+   },
+   "warmup_aware_SH": {
+    "regret": 0.0464,
+    "p_correct": 0.777
+   }
+  }
+ }
+}

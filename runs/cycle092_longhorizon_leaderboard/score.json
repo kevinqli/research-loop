@@ -1,0 +1,87 @@
+{
+ "model": {
+  "REPS": 20000,
+  "N": 100,
+  "KCK": 5,
+  "p_range": [
+   0.02,
+   0.12
+  ]
+ },
+ "no_ckpt": {
+  "10": {
+   "gap": 0.27254,
+   "ci": 0.00144,
+   "reeval_gap": 0.00526,
+   "reeval_ci": 0.00471,
+   "sig_run": 0.35164,
+   "true_skill_mean": 0.6945,
+   "obs_winner_mean": 1.0
+  },
+  "20": {
+   "gap": 0.38859,
+   "ci": 0.00183,
+   "reeval_gap": -0.00243,
+   "reeval_ci": 0.00486,
+   "sig_run": 0.34734,
+   "true_skill_mean": 0.5308,
+   "obs_winner_mean": 1.0
+  },
+  "40": {
+   "gap": 0.5057,
+   "ci": 0.00175,
+   "reeval_gap": 0.00076,
+   "reeval_ci": 0.00472,
+   "sig_run": 0.29089,
+   "true_skill_mean": 0.3507,
+   "obs_winner_mean": 1.0
+  },
+  "80": {
+   "gap": 0.62227,
+   "ci": 0.00126,
+   "reeval_gap": 0.00272,
+   "reeval_ci": 0.00424,
+   "sig_run": 0.20353,
+   "true_skill_mean": 0.2015,
+   "obs_winner_mean": 0.9896
+  }
+ },
+ "ckpt": {
+  "10": {
+   "gap": 0.16687,
+   "ci": 0.00097,
+   "reeval_gap": -0.00072,
+   "reeval_ci": 0.00301,
+   "sig_run": 0.22626,
+   "true_skill_mean": 0.8115,
+   "obs_winner_mean": 1.0
+  },
+  "20": {
+   "gap": 0.14747,
+   "ci": 0.00091,
+   "reeval_gap": -0.00068,
+   "reeval_ci": 0.00203,
+   "sig_run": 0.16011,
+   "true_skill_mean": 0.8115,
+   "obs_winner_mean": 1.0
+  },
+  "40": {
+   "gap": 0.11805,
+   "ci": 0.00072,
+   "reeval_gap": 0.00016,
+   "reeval_ci": 0.00131,
+   "sig_run": 0.11309,
+   "true_skill_mean": 0.8115,
+   "obs_winner_mean": 1.0
+  },
+  "80": {
+   "gap": 0.09118,
+   "ci": 0.00045,
+   "reeval_gap": -0.0003,
+   "reeval_ci": 0.00085,
+   "sig_run": 0.0799,
+   "true_skill_mean": 0.8114,
+   "obs_winner_mean": 0.9986
+  }
+ }
+}

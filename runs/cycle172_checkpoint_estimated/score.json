@@ -1,0 +1,59 @@
+{
+ "L": 50,
+ "B": 8,
+ "REPS": 2000,
+ "P1_unbiased_eta_sweep": {
+  "0.0": {
+   "even": 7.123,
+   "difficulty": 2.81,
+   "oracle": 2.81
+  },
+  "0.5": {
+   "even": 7.144,
+   "difficulty": 3.57,
+   "oracle": 2.788
+  },
+  "1.0": {
+   "even": 7.192,
+   "difficulty": 5.382,
+   "oracle": 2.809
+  },
+  "2.0": {
+   "even": 7.104,
+   "difficulty": 7.222,
+   "oracle": 2.816
+  },
+  "4.0": {
+   "even": 7.134,
+   "difficulty": 8.405,
+   "oracle": 2.782
+  }
+ },
+ "P2_anticorr_rho_sweep": {
+  "0.0": {
+   "even": 7.127,
+   "difficulty": 3.635,
+   "diff_worse_than_even": false
+  },
+  "0.25": {
+   "even": 7.165,
+   "difficulty": 5.44,
+   "diff_worse_than_even": false
+  },
+  "0.5": {
+   "even": 7.15,
+   "difficulty": 8.678,
+   "diff_worse_than_even": true
+  },
+  "0.75": {
+   "even": 7.116,
+   "difficulty": 10.247,
+   "diff_worse_than_even": true
+  },
+  "1.0": {
+   "even": 7.105,
+   "difficulty": 10.038,
+   "diff_worse_than_even": true
+  }
+ }
+}

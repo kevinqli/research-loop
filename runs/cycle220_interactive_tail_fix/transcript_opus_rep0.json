@@ -1,0 +1,34 @@
+[
+ {
+  "round": 1,
+  "reply": "CONTINUE: greedy construction seeded by a problem-specific heuristic, then local-search (2-opt / swap) refinement until no improving move \u2014 a strong, simple baseline to anchor against."
+ },
+ {
+  "round": 2,
+  "reply": "CONTINUE: simulated annealing with restarts over the same neighborhood, plus tabu list to escape the local optima that 2-opt got stuck in"
+ },
+ {
+  "round": 3,
+  "reply": "CONTINUE: population-based genetic algorithm with problem-specific crossover, periodic local-search on elites (memetic), and adaptive mutation tied to diversity"
+ },
+ {
+  "round": 4,
+  "reply": "CONTINUE: memetic algorithm \u2014 GA backbone with adaptive operator selection and per-individual local-search intensification (Lamarckian), restart on diversity collapse."
+ },
+ {
+  "round": 5,
+  "reply": "CONTINUE: hyper-heuristic ensemble \u2014 run memetic GA, SA, and tabu in parallel islands with periodic migration of elites, and an adaptive bandit to allocate compute to whichever island is improving fastest."
+ },
+ {
+  "round": 6,
+  "reply": "CONTINUE: add a learned/UCB adaptive controller on top of the parallel islands \u2014 bandit allocates compute to the best-performing heuristic per problem phase, with periodic migration of elite solutions between islands."
+ },
+ {
+  "round": 7,
+  "reply": "CONTINUE: revert to the round-5 parallel-island ensemble (drop the bandit) but add periodic cross-island migration of elite solutions plus path-relinking between island bests to exploit complementary structure."
+ },
+ {
+  "round": 8,
+  "reply": "STOP: ship round 7; the best score (82.2) is not a real improvement over round 5 (81.8) because the ~0.4 gap is within scorer noise, and rounds 6/8-style additions have only hurt or plateaued."
+ }
+]

@@ -1,0 +1,35 @@
+{
+ "haiku_acc": 0.875,
+ "capable_acc": 0.75,
+ "haiku_cond_correct": "8/8",
+ "capable_cond_correct": "8/8",
+ "haiku_errors": [
+  [
+   "t3",
+   "NULL",
+   "REAL",
+   "FALSE-POS (null->REAL)",
+   "cond-ok"
+  ]
+ ],
+ "capable_errors": [
+  [
+   "t1",
+   "REAL",
+   "NULL",
+   "FALSE-NEG (real->NULL, conservative)",
+   "cond-ok"
+  ],
+  [
+   "t4",
+   "REAL",
+   "NULL",
+   "FALSE-NEG (real->NULL, conservative)",
+   "cond-ok"
+  ]
+ ],
+ "haiku_collider_t8": {
+  "verdict": "NULL",
+  "cond": "none"
+ }
+}

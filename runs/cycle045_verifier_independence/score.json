@@ -1,0 +1,48 @@
+{
+ "baseline": 0.08922237371111996,
+ "A_vs_independence": [
+  {
+   "alpha": 0.0,
+   "residual_gap": -0.0002822338130455009,
+   "pct_of_baseline": -0.3163262770382061
+  },
+  {
+   "alpha": 0.25,
+   "residual_gap": 0.02130918713159803,
+   "pct_of_baseline": 23.883232697430717
+  },
+  {
+   "alpha": 0.5,
+   "residual_gap": 0.04573790654619852,
+   "pct_of_baseline": 51.262821917612925
+  },
+  {
+   "alpha": 0.75,
+   "residual_gap": 0.06554478497861345,
+   "pct_of_baseline": 73.4622743739494
+  },
+  {
+   "alpha": 1.0,
+   "residual_gap": 0.08960166886014496,
+   "pct_of_baseline": 100.4251121476022
+  }
+ ],
+ "B_vs_accuracy": [
+  {
+   "noise": 0.02,
+   "residual_gap": 5.612603865329313e-05
+  },
+  {
+   "noise": 0.05,
+   "residual_gap": -0.00039622149039604716
+  },
+  {
+   "noise": 0.1,
+   "residual_gap": -0.0011327003149472071
+  },
+  {
+   "noise": 0.2,
+   "residual_gap": -0.0036199645570591963
+  }
+ ]
+}

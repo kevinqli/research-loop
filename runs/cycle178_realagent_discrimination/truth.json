@@ -1,0 +1,8 @@
+{
+ "truth": {
+  "A": "strict",
+  "B": "lenient"
+ },
+ "discriminator": "B=lenient WITH the false-alarm-burns-budget reasoning (the c177 derived half); A=strict is the intuitive half",
+ "prereg": "P1 both A=strict; P2 only Opus derives B=lenient+budget-reasoning, Haiku defaults B=strict"
+}

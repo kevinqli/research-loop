@@ -1,0 +1,186 @@
+{
+ "A": 0.05,
+ "BUDGET_FRAC": 0.15,
+ "REPS": 8000,
+ "SIGMAS": [
+  0.25,
+  0.35,
+  0.5,
+  0.75,
+  1.0
+ ],
+ "TAU_GRID": [
+  -0.5,
+  -0.375,
+  -0.25,
+  -0.125,
+  0.0,
+  0.125,
+  0.25,
+  0.375,
+  0.5,
+  0.625,
+  0.75,
+  0.875,
+  1.0,
+  1.125,
+  1.25,
+  1.375,
+  1.5
+ ],
+ "L_VALUES": [
+  10,
+  30,
+  100
+ ],
+ "NAIVE_TAU": 0.5,
+ "partA_repro": {
+  "10": {
+   "tau_star": 0.25,
+   "P_at_taustar": 0.765,
+   "P_at_0.25": 0.765
+  },
+  "30": {
+   "tau_star": 0.25,
+   "P_at_taustar": 0.577,
+   "P_at_0.25": 0.577
+  },
+  "100": {
+   "tau_star": 0.25,
+   "P_at_taustar": 0.208,
+   "P_at_0.25": 0.208
+  }
+ },
+ "sweep": {
+  "0.25": {
+   "10": {
+    "tau_star": 0.375,
+    "P_at_taustar": 0.883,
+    "P_at_naive0.5": 0.878,
+    "tuning_value": 0.005,
+    "plateau_lo": 0.375,
+    "plateau_hi": 0.5
+   },
+   "30": {
+    "tau_star": 0.5,
+    "P_at_taustar": 0.923,
+    "P_at_naive0.5": 0.923,
+    "tuning_value": 0.0,
+    "plateau_lo": 0.5,
+    "plateau_hi": 0.5
+   },
+   "100": {
+    "tau_star": 0.625,
+    "P_at_taustar": 0.909,
+    "P_at_naive0.5": 0.884,
+    "tuning_value": 0.026,
+    "plateau_lo": 0.625,
+    "plateau_hi": 0.625
+   }
+  },
+  "0.35": {
+   "10": {
+    "tau_star": 0.375,
+    "P_at_taustar": 0.824,
+    "P_at_naive0.5": 0.808,
+    "tuning_value": 0.016,
+    "plateau_lo": 0.25,
+    "plateau_hi": 0.375
+   },
+   "30": {
+    "tau_star": 0.375,
+    "P_at_taustar": 0.767,
+    "P_at_naive0.5": 0.753,
+    "tuning_value": 0.014,
+    "plateau_lo": 0.375,
+    "plateau_hi": 0.375
+   },
+   "100": {
+    "tau_star": 0.5,
+    "P_at_taustar": 0.625,
+    "P_at_naive0.5": 0.625,
+    "tuning_value": 0.0,
+    "plateau_lo": 0.5,
+    "plateau_hi": 0.5
+   }
+  },
+  "0.5": {
+   "10": {
+    "tau_star": 0.25,
+    "P_at_taustar": 0.76,
+    "P_at_naive0.5": 0.734,
+    "tuning_value": 0.027,
+    "plateau_lo": 0.125,
+    "plateau_hi": 0.25
+   },
+   "30": {
+    "tau_star": 0.375,
+    "P_at_taustar": 0.58,
+    "P_at_naive0.5": 0.522,
+    "tuning_value": 0.058,
+    "plateau_lo": 0.375,
+    "plateau_hi": 0.375
+   },
+   "100": {
+    "tau_star": 0.375,
+    "P_at_taustar": 0.272,
+    "P_at_naive0.5": 0.198,
+    "tuning_value": 0.074,
+    "plateau_lo": 0.375,
+    "plateau_hi": 0.375
+   }
+  },
+  "0.75": {
+   "10": {
+    "tau_star": 0.0,
+    "P_at_taustar": 0.71,
+    "P_at_naive0.5": 0.685,
+    "tuning_value": 0.025,
+    "plateau_lo": 0.0,
+    "plateau_hi": 0.125
+   },
+   "30": {
+    "tau_star": 0.125,
+    "P_at_taustar": 0.438,
+    "P_at_naive0.5": 0.378,
+    "tuning_value": 0.06,
+    "plateau_lo": 0.0,
+    "plateau_hi": 0.125
+   },
+   "100": {
+    "tau_star": 0.25,
+    "P_at_taustar": 0.086,
+    "P_at_naive0.5": 0.05,
+    "tuning_value": 0.036,
+    "plateau_lo": 0.125,
+    "plateau_hi": 0.25
+   }
+  },
+  "1.0": {
+   "10": {
+    "tau_star": 0.0,
+    "P_at_taustar": 0.688,
+    "P_at_naive0.5": 0.665,
+    "tuning_value": 0.023,
+    "plateau_lo": 0.0,
+    "plateau_hi": 0.0
+   },
+   "30": {
+    "tau_star": 0.0,
+    "P_at_taustar": 0.38,
+    "P_at_naive0.5": 0.335,
+    "tuning_value": 0.045,
+    "plateau_lo": 0.0,
+    "plateau_hi": 0.0
+   },
+   "100": {
+    "tau_star": 0.0,
+    "P_at_taustar": 0.055,
+    "P_at_naive0.5": 0.032,
+    "tuning_value": 0.023,
+    "plateau_lo": -0.125,
+    "plateau_hi": 0.0
+   }
+  }
+ }
+}

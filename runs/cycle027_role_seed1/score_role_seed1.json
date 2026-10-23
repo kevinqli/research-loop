@@ -1,0 +1,13 @@
+{
+ "seed": 1,
+ "with_role_verdict_acc": 0.6666666666666666,
+ "conditioning_acc": 1.0,
+ "data_only_verdict_acc": 0.6666666666666666,
+ "mediator_correct": true,
+ "errors": {
+  "q2": {
+   "truth": "NULL",
+   "wr": "REAL"
+  }
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "truth": {
+  "Q1_threshold": "YES a sharp threshold lambda*~0.25 below which SELECT always wins (no crossover); lambda* GROWS with K",
+  "Q2_signflip": "the K-dependence of sigma_v* FLIPS SIGN with lambda: sigma_v* RISES with K at low lambda (tail-grab dominates), FALLS with K at high lambda (variance-reduction dominates); flip ~lambda 0.75"
+ },
+ "discriminator": "Q1: asserts a SHARP threshold (not smooth) + ballpark + grows-with-K; Q2: gets the SIGN-FLIP (direction depends on lambda), not a uniform direction",
+ "prereg_meth29": "via meth-27: qualitative direction FAMOUS->both get it; threshold-existence + K-signflip are LOOP-NOVEL->NEITHER tier derives them (hand-wave smooth + uniform K-direction). NOT 'Opus yes Haiku no' (that's the naive contrast)."
+}

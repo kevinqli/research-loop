@@ -1,0 +1,74 @@
+{
+ "model": {
+  "REPS": 30000,
+  "SIG_OBS": 0.4,
+  "GENS": {
+   "reliable": [
+    0.8,
+    0.3
+   ],
+   "wild": [
+    0.2,
+    0.6
+   ]
+  }
+ },
+ "K": {
+  "1": {
+   "rel_oracle": 0.8012,
+   "wild_oracle": 0.1983,
+   "rel_gap": -0.0013,
+   "wild_gap": -0.0009,
+   "rel_nv": 0.8012,
+   "wild_nv": 0.1983
+  },
+  "2": {
+   "rel_oracle": 0.9711,
+   "wild_oracle": 0.5364,
+   "rel_gap": 0.1821,
+   "wild_gap": 0.1266,
+   "rel_nv": 0.9038,
+   "wild_nv": 0.4803
+  },
+  "5": {
+   "rel_oracle": 1.1499,
+   "wild_oracle": 0.8961,
+   "rel_gap": 0.3717,
+   "wild_gap": 0.2617,
+   "rel_nv": 1.0107,
+   "wild_nv": 0.777
+  },
+  "10": {
+   "rel_oracle": 1.2608,
+   "wild_oracle": 1.1246,
+   "rel_gap": 0.4922,
+   "wild_gap": 0.3393,
+   "rel_nv": 1.0786,
+   "wild_nv": 0.9704
+  },
+  "20": {
+   "rel_oracle": 1.3597,
+   "wild_oracle": 1.3225,
+   "rel_gap": 0.5977,
+   "wild_gap": 0.415,
+   "rel_nv": 1.1334,
+   "wild_nv": 1.135
+  },
+  "50": {
+   "rel_oracle": 1.4755,
+   "wild_oracle": 1.5475,
+   "rel_gap": 0.7175,
+   "wild_gap": 0.5018,
+   "rel_nv": 1.2041,
+   "wild_nv": 1.3212
+  },
+  "100": {
+   "rel_oracle": 1.5515,
+   "wild_oracle": 1.7053,
+   "rel_gap": 0.8028,
+   "wild_gap": 0.5578,
+   "rel_nv": 1.251,
+   "wild_nv": 1.4532
+  }
+ }
+}

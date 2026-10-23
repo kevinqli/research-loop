@@ -1,0 +1,8 @@
+{
+ "scenarios": [
+  "wall_after_progress",
+  "clear_wall"
+ ],
+ "frameA": "continue/stop",
+ "frameB": "retry/change/escalate"
+}

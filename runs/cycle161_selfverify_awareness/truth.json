@@ -1,0 +1,10 @@
+{
+ "truth": {
+  "S1_arithmetic": "SELF",
+  "S2_winners_curse": "INDEPENDENT",
+  "S3_leakage": "INDEPENDENT",
+  "S4_unit_tests": "SELF"
+ },
+ "discriminating": "S3_leakage (INDEPENDENT \u2014 leakage is timing/provenance, invisible in the data, c68; a data-only self-check can be fooled)",
+ "expected_easy": "S1/S4 SELF, S2 INDEPENDENT (knows the curse)"
+}

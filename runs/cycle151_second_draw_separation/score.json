@@ -1,0 +1,56 @@
+{
+ "truth": {
+  "A": 1.8,
+  "B": 0.3,
+  "C": 1.0,
+  "D": 0.1,
+  "E": 0.5
+ },
+ "arms": {
+  "haiku_A": {
+   "corr_est_true": 0.2740265208162424,
+   "keypair_A_minus_B": 0.04999999999999993,
+   "est": {
+    "A": 0.85,
+    "B": 0.8,
+    "C": 0.75,
+    "D": 0.8,
+    "E": 0.4
+   }
+  },
+  "haiku_B": {
+   "corr_est_true": 0.9985644891124282,
+   "keypair_A_minus_B": 1.4,
+   "est": {
+    "A": 1.5,
+    "B": 0.1,
+    "C": 0.8,
+    "D": 0.0,
+    "E": 0.3
+   }
+  },
+  "opus_A": {
+   "corr_est_true": 0.3242341276820142,
+   "keypair_A_minus_B": 0.050000000000000044,
+   "est": {
+    "A": 0.9,
+    "B": 0.85,
+    "C": 0.6,
+    "D": 0.7,
+    "E": 0.25
+   }
+  },
+  "opus_B": {
+   "corr_est_true": 0.9996145231784013,
+   "keypair_A_minus_B": 1.3,
+   "est": {
+    "A": 1.5,
+    "B": 0.2,
+    "C": 0.8,
+    "D": 0.05,
+    "E": 0.35
+   }
+  }
+ },
+ "summary": "ARM A (1 obs): cannot separate real from lucky (low corr, keypair ~0.05); ARM B (2nd independent draw): separates (high corr, keypair ~1.3-1.4 vs true 1.5). The FIX transfers behaviorally, both models."
+}

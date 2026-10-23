@@ -1,0 +1,64 @@
+{
+ "N": 50,
+ "SIG_NOISE": 0.3,
+ "vs_sig_skill": [
+  {
+   "sig_skill": 1.0,
+   "ratio_skill_noise": 3.33,
+   "spearman": 0.946,
+   "p_pick_true_best": 0.671,
+   "wc_gap": 0.1931,
+   "relative_curse_gap_over_skill": 0.193
+  },
+  {
+   "sig_skill": 0.6,
+   "ratio_skill_noise": 2.0,
+   "spearman": 0.875,
+   "p_pick_true_best": 0.51,
+   "wc_gap": 0.301,
+   "relative_curse_gap_over_skill": 0.502
+  },
+  {
+   "sig_skill": 0.4,
+   "ratio_skill_noise": 1.33,
+   "spearman": 0.774,
+   "p_pick_true_best": 0.368,
+   "wc_gap": 0.4043,
+   "relative_curse_gap_over_skill": 1.011
+  },
+  {
+   "sig_skill": 0.3,
+   "ratio_skill_noise": 1.0,
+   "spearman": 0.679,
+   "p_pick_true_best": 0.269,
+   "wc_gap": 0.4786,
+   "relative_curse_gap_over_skill": 1.595
+  },
+  {
+   "sig_skill": 0.2,
+   "ratio_skill_noise": 0.67,
+   "spearman": 0.527,
+   "p_pick_true_best": 0.171,
+   "wc_gap": 0.5601,
+   "relative_curse_gap_over_skill": 2.801
+  },
+  {
+   "sig_skill": 0.1,
+   "ratio_skill_noise": 0.33,
+   "spearman": 0.298,
+   "p_pick_true_best": 0.076,
+   "wc_gap": 0.6409,
+   "relative_curse_gap_over_skill": 6.409
+  },
+  {
+   "sig_skill": 0.05,
+   "ratio_skill_noise": 0.17,
+   "spearman": 0.155,
+   "p_pick_true_best": 0.043,
+   "wc_gap": 0.6675,
+   "relative_curse_gap_over_skill": 13.35
+  }
+ ],
+ "target_spearman": 0.9,
+ "need_ratio": 2.33
+}

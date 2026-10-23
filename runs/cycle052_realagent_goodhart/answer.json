@@ -1,0 +1,17 @@
+{
+  "selected_features": [
+    "feat2",
+    "feat34",
+    "feat27",
+    "feat24",
+    "feat17",
+    "feat30",
+    "feat41",
+    "feat13",
+    "feat45",
+    "feat44"
+  ],
+  "expected_validation_r2": 0.04214243453257849,
+  "expected_secret_test_r2": 0.032142434532578486,
+  "note": "Selected top 10 features by RF importance; tuned Ridge alpha on validation (minimal overfitting risk as validation is held separate)"
+}

@@ -1,0 +1,44 @@
+{
+ "meta": "finding-survival re-test on HELD-OUT seeds (non-overlapping with originals)",
+ "findings": {
+  "A_collider_aware_best": {
+   "orig": {
+    "B_collider": 0.88125,
+    "B_sound": 0.7625
+   },
+   "holdout": {
+    "B_collider": 0.875,
+    "B_sound": 0.75
+   },
+   "headline": "B_collider>B_sound (non-overlapping CI)",
+   "holdout_nonoverlapping_CI": true,
+   "survives": true
+  },
+  "B_winners_curse": {
+   "orig": {
+    "gap_K1": 0.0003574516594444398,
+    "gap_K100": 0.08900613668057679
+   },
+   "holdout": {
+    "gap_K1": -0.00020535401235164695,
+    "gap_K100": 0.08931210273404708,
+    "reeval_bias_K100": 0.0005357228370494223
+   },
+   "headline": "gap grows K1->K100; held-out reeval~0",
+   "survives": true
+  },
+  "C_mediator_limit": {
+   "orig": {
+    "mediator_Bc": 0.05,
+    "meanBpp": 0.9666666666666667
+   },
+   "holdout": {
+    "mediator_Bc": 0.05,
+    "meanBpp": 0.96
+   },
+   "headline": "shrink-vs-grow fails on mediator(~0.05); role-gate(~0.97)",
+   "survives": true
+  }
+ },
+ "survival_rate": "3/3"
+}

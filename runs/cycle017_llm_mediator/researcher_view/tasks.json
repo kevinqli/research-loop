@@ -1,0 +1,29 @@
+{
+ "q1": {
+  "marginal_effect": 2.887,
+  "marginal_p": 0.0,
+  "conditioned_effect": 0.003,
+  "conditioned_p": 0.9577,
+  "shrinks": true,
+  "n": 2000,
+  "context": "Z is measured AFTER the intervention T and is believed to lie ON the causal pathway from T to the outcome Y (T changes Z, and Z changes Y)."
+ },
+ "q2": {
+  "marginal_effect": 1.861,
+  "marginal_p": 0.0,
+  "conditioned_effect": -0.005,
+  "conditioned_p": 0.9276,
+  "shrinks": true,
+  "n": 2000,
+  "context": "Z is a pre-treatment baseline characteristic measured BEFORE the intervention T was assigned. Units with higher Z were more likely to receive T. Z plausibly affects the outcome Y directly."
+ },
+ "q3": {
+  "marginal_effect": -0.064,
+  "marginal_p": 0.4141,
+  "conditioned_effect": -1.165,
+  "conditioned_p": 0.0,
+  "shrinks": false,
+  "n": 2000,
+  "context": "Z is measured AFTER the intervention T. Z is influenced by T AND by a separate unmeasured factor; that same unmeasured factor also affects the outcome Y. Z itself has no causal effect on Y."
+ }
+}

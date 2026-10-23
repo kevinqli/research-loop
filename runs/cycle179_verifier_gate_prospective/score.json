@@ -1,0 +1,65 @@
+{
+ "truth": {
+  "S1_reliable": "BREADTH",
+  "S3_random": "DEPTH"
+ },
+ "REPS": 3,
+ "results": {
+  "haiku": {
+   "S1_reliable": [
+    "BREADTH",
+    "BREADTH",
+    "BREADTH"
+   ],
+   "S3_random": [
+    "BREADTH",
+    "DEPTH",
+    "BREADTH"
+   ]
+  },
+  "opus": {
+   "S1_reliable": [
+    "BREADTH",
+    "BREADTH",
+    "BREADTH"
+   ],
+   "S3_random": [
+    "DEPTH",
+    "DEPTH",
+    "DEPTH"
+   ]
+  }
+ },
+ "summary": {
+  "haiku": {
+   "S1_reliable": [
+    "BREADTH",
+    "BREADTH",
+    "BREADTH"
+   ],
+   "S3_random": [
+    "BREADTH",
+    "DEPTH",
+    "BREADTH"
+   ],
+   "S1_breadth_n": 3,
+   "S3_depth_n": 1,
+   "differentiates_on_selector": false
+  },
+  "opus": {
+   "S1_reliable": [
+    "BREADTH",
+    "BREADTH",
+    "BREADTH"
+   ],
+   "S3_random": [
+    "DEPTH",
+    "DEPTH",
+    "DEPTH"
+   ],
+   "S1_breadth_n": 3,
+   "S3_depth_n": 3,
+   "differentiates_on_selector": true
+  }
+ }
+}

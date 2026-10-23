@@ -1,0 +1,54 @@
+{
+ "A_vs_noise_c1": [
+  {
+   "s_eval": 0.02,
+   "m_star": 2,
+   "K_star": 98,
+   "true_at_mstar": 0.9186471540176608,
+   "true_pure_search": 0.916663420989736
+  },
+  {
+   "s_eval": 0.05,
+   "m_star": 4,
+   "K_star": 96,
+   "true_at_mstar": 0.8980396144895995,
+   "true_pure_search": 0.8879687727811904
+  },
+  {
+   "s_eval": 0.1,
+   "m_star": 11,
+   "K_star": 89,
+   "true_at_mstar": 0.8684411600170229,
+   "true_pure_search": 0.854377180278806
+  },
+  {
+   "s_eval": 0.2,
+   "m_star": 9,
+   "K_star": 91,
+   "true_at_mstar": 0.8391291508370905,
+   "true_pure_search": 0.8296470641606329
+  }
+ ],
+ "B_vs_cost_seval0.1": [
+  {
+   "c": 1.0,
+   "m_star": 11,
+   "verify_fraction": 0.11
+  },
+  {
+   "c": 0.5,
+   "m_star": 8,
+   "verify_fraction": 0.04
+  },
+  {
+   "c": 0.2,
+   "m_star": 7,
+   "verify_fraction": 0.014000000000000002
+  },
+  {
+   "c": 0.1,
+   "m_star": 12,
+   "verify_fraction": 0.012000000000000002
+  }
+ ]
+}

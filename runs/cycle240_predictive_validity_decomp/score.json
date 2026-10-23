@@ -1,0 +1,141 @@
+{
+ "rows": [
+  {
+   "rho_red": 0.0,
+   "tau": 1.0,
+   "T_eff": 20.0,
+   "R": 0.9514100062124347,
+   "R_analytic": 0.952,
+   "PV": 0.9677471890339912,
+   "pred_sqrtR_tau": 0.975
+  },
+  {
+   "rho_red": 0.0,
+   "tau": 0.7,
+   "T_eff": 20.0,
+   "R": 0.9519477512456715,
+   "R_analytic": 0.952,
+   "PV": 0.6585965916458276,
+   "pred_sqrtR_tau": 0.683
+  },
+  {
+   "rho_red": 0.0,
+   "tau": 0.3,
+   "T_eff": 20.0,
+   "R": 0.9516952048840264,
+   "R_analytic": 0.952,
+   "PV": 0.2758066685190331,
+   "pred_sqrtR_tau": 0.293
+  },
+  {
+   "rho_red": 0.0,
+   "tau": 0.0,
+   "T_eff": 20.0,
+   "R": 0.9511674128183519,
+   "R_analytic": 0.952,
+   "PV": 0.0014026859312772065,
+   "pred_sqrtR_tau": 0.0
+  },
+  {
+   "rho_red": 0.0,
+   "tau": -0.2,
+   "T_eff": 20.0,
+   "R": 0.9518033584599108,
+   "R_analytic": 0.952,
+   "PV": -0.18240231545799762,
+   "pred_sqrtR_tau": -0.195
+  },
+  {
+   "rho_red": 0.3,
+   "tau": 1.0,
+   "T_eff": 2.99,
+   "R": 0.745675850831142,
+   "R_analytic": 0.749,
+   "PV": 0.845477114013152,
+   "pred_sqrtR_tau": 0.864
+  },
+  {
+   "rho_red": 0.3,
+   "tau": 0.7,
+   "T_eff": 2.99,
+   "R": 0.7472762872556015,
+   "R_analytic": 0.749,
+   "PV": 0.5791137908678338,
+   "pred_sqrtR_tau": 0.605
+  },
+  {
+   "rho_red": 0.3,
+   "tau": 0.3,
+   "T_eff": 2.99,
+   "R": 0.7455375661462889,
+   "R_analytic": 0.749,
+   "PV": 0.24570652959155329,
+   "pred_sqrtR_tau": 0.259
+  },
+  {
+   "rho_red": 0.3,
+   "tau": 0.0,
+   "T_eff": 2.99,
+   "R": 0.7456835983670338,
+   "R_analytic": 0.749,
+   "PV": 0.0011626748170788172,
+   "pred_sqrtR_tau": 0.0
+  },
+  {
+   "rho_red": 0.3,
+   "tau": -0.2,
+   "T_eff": 2.99,
+   "R": 0.7463428916911914,
+   "R_analytic": 0.749,
+   "PV": -0.16520742798925633,
+   "pred_sqrtR_tau": -0.173
+  },
+  {
+   "rho_red": 0.6,
+   "tau": 1.0,
+   "T_eff": 1.61,
+   "R": 0.6170851627341261,
+   "R_analytic": 0.617,
+   "PV": 0.7622902658145783,
+   "pred_sqrtR_tau": 0.786
+  },
+  {
+   "rho_red": 0.6,
+   "tau": 0.7,
+   "T_eff": 1.61,
+   "R": 0.6146651753066612,
+   "R_analytic": 0.617,
+   "PV": 0.5235015837732705,
+   "pred_sqrtR_tau": 0.549
+  },
+  {
+   "rho_red": 0.6,
+   "tau": 0.3,
+   "T_eff": 1.61,
+   "R": 0.6163877131281962,
+   "R_analytic": 0.617,
+   "PV": 0.22200644623506532,
+   "pred_sqrtR_tau": 0.236
+  },
+  {
+   "rho_red": 0.6,
+   "tau": 0.0,
+   "T_eff": 1.61,
+   "R": 0.6164788617383304,
+   "R_analytic": 0.617,
+   "PV": -0.00263174956006298,
+   "pred_sqrtR_tau": 0.0
+  },
+  {
+   "rho_red": 0.6,
+   "tau": -0.2,
+   "T_eff": 1.61,
+   "R": 0.6141292543016463,
+   "R_analytic": 0.617,
+   "PV": -0.14756428637584515,
+   "pred_sqrtR_tau": -0.157
+  }
+ ],
+ "factorization_err": 0.013651793399400999,
+ "verdict": "CONFIRMED: PV \u2248 \u221aR\u00b7\u03c4 \u2014 predictive validity factorizes into RELIABILITY (c181 T_eff) \u00d7 TRANSFER (the paper's axis); BOTH a redundant benchmark AND non-transferring tasks independently kill it; the loop's T_eff fixes only the reliability factor"
+}

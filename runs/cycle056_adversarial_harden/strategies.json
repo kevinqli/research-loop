@@ -1,0 +1,52 @@
+{
+ "s1": [
+  "feat10",
+  "feat18",
+  "feat20",
+  "feat23",
+  "feat41"
+ ],
+ "s2": [
+  "feat10",
+  "feat18",
+  "feat20",
+  "feat9",
+  "feat31",
+  "feat3",
+  "feat4"
+ ],
+ "s3": [
+  "feat10",
+  "feat18",
+  "feat1",
+  "feat39",
+  "feat31",
+  "feat12",
+  "feat22"
+ ],
+ "s4": [
+  "feat19",
+  "feat46",
+  "feat34",
+  "feat21",
+  "feat32",
+  "feat30"
+ ],
+ "s5": [
+  "feat36",
+  "feat14",
+  "feat45",
+  "feat17",
+  "feat7",
+  "feat46",
+  "feat16",
+  "feat27"
+ ],
+ "s6": [
+  "feat49",
+  "feat7",
+  "feat25",
+  "feat24",
+  "feat1"
+ ]
+}

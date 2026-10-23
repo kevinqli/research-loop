@@ -1,0 +1,24 @@
+{
+ "seed": 1,
+ "llm_acc": 0.875,
+ "A_acc": 0.625,
+ "Bsound_acc": 0.75,
+ "Bcollider_acc": 0.875,
+ "cond_decision_agreement": "8/8",
+ "llm_errors": {
+  "t4": {
+   "truth": "REAL",
+   "pred": "NULL"
+  }
+ },
+ "llm_conditioned_on": {
+  "t0": "none",
+  "t1": "none",
+  "t2": "none",
+  "t3": "none",
+  "t4": "none",
+  "t5": "group",
+  "t6": "group",
+  "t8": "none"
+ }
+}

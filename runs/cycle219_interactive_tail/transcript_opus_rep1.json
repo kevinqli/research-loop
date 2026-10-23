@@ -1,0 +1,7 @@
+[
+ {
+  "round": 1,
+  "prompt_tail": "OUND 1. Reply in EXACTLY one of these two forms:\n  CONTINUE: <your next candidate idea, one line>\n  STOP: ship round <k>; the best score <is / is not> a real improvement because <one line>\nDecide now.",
+  "reply": "STOP: ship round 0; the best score is not a real improvement because no candidate has been proposed or scored yet, so there is nothing to ship."
+ }
+]

@@ -1,0 +1,50 @@
+{
+  "task1": {
+    "selected_features": [
+      "feat30",
+      "feat4",
+      "feat46",
+      "feat29",
+      "feat23",
+      "feat40",
+      "feat41",
+      "feat45",
+      "feat24",
+      "feat42"
+    ],
+    "expected_oos_r2": 0.007,
+    "method": "Ridge regression (\u03b1=1000) with 5-fold CV on top-10 features by absolute coefficient"
+  },
+  "task2": {
+    "selected_features": [
+      "feat11",
+      "feat28",
+      "feat3",
+      "feat25",
+      "feat26",
+      "feat18",
+      "feat12",
+      "feat0",
+      "feat48",
+      "feat23"
+    ],
+    "expected_oos_r2": 0,
+    "method": "Ridge regression (\u03b1=1000) with 5-fold CV on top-10 features by absolute coefficient"
+  },
+  "task3": {
+    "selected_features": [
+      "feat40",
+      "feat48",
+      "feat39",
+      "feat29",
+      "feat49",
+      "feat24",
+      "feat34",
+      "feat3",
+      "feat22",
+      "feat32"
+    ],
+    "expected_oos_r2": 0.019,
+    "method": "Ridge regression (\u03b1=1000) with 5-fold CV on top-10 features by absolute coefficient"
+  }
+}

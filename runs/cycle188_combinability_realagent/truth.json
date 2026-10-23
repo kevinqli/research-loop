@@ -1,0 +1,8 @@
+{
+ "truth": {
+  "A_combinable": "ENSEMBLE/AVERAGE (variance reduction ~1/K; averaging BEATS picking the best-validation model = forecast combination, c176)",
+  "B_tail": "SELECT the best by checker BUT the 0.94 is winner's-cursed/inflated by selection -> discount it + verify on an INDEPENDENT check; honest P(correct) < 0.94"
+ },
+ "discriminator": "A -> average + 'beats picking best'; B -> select + curse/discount + independent re-check",
+ "prereg": "Opus conditions correctly on combinability (A=ensemble, B=select+curse); Haiku defaults to pick-the-best for BOTH and/or misses the B curse. both-correct -> recoverable/famous (meth-27 flat); split -> Opus-only novel-composition (meth-27)"
+}
